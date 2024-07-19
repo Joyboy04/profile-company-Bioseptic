@@ -213,184 +213,158 @@
     
 
     <section class="section border-t pb-0">
-      <div class="container">
+    <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
-          <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Products</h2>
-            <p class="mb-5 lead">Bioseptic Waterindo Abadi adalah produsen sensor cuaca dan lingkungan dengan lebih dari 10 tahun pengalaman. Kami menyediakan produk berkualitas dan layanan EPC serta O&M untuk kebutuhan pemantauan.</p>
-          </div>
+            <div class="col-md-8 text-center">
+                <h2 class="heading mb-4">Products</h2>
+                <p class="mb-5 lead">
+                    Bioseptic Waterindo Abadi adalah produsen sensor cuaca dan lingkungan dengan lebih dari 10 tahun pengalaman. Kami menyediakan produk berkualitas dan layanan EPC serta O&M untuk kebutuhan pemantauan.
+                </p>
+            </div>
         </div>
-      </div>
-      <div class="container-fluid">
+    </div>
+    <div class="container-fluid">
         <div class="row no-gutters">
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Wind Sensor</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/sensors/wind sensor.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Rain Gauge</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/sensors/rain gauge.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Radiation Sensor</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/sensors/radiation sensor.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Ambient Sensor</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/sensors/ambient sensor.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Soil Sensor</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/sensors/soil sensor.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Weather Station</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/sensors/weather station.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Radiation Shield</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/sensors/radiation shield.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Water Sensor</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/sensors/water sensor.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Level Sensor</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/sensors/level sensor.jpg" alt="Free template by Free-Template.co" class="img-fluid">
-            </a>
-          </div>
+            <?php
+            // Include database connection
+            include './db/db_connect.php';
+
+            // Query to fetch products
+            $sql = "SELECT id, name, image_path, description FROM products";
+            $result = $conn->query($sql);
+
+            // Check for query execution errors
+            if ($result === false) {
+                echo "<p>Error: " . $conn->error . "</p>";
+                // Display no products available message if query fails
+                echo '<p>No products available.</p>';
+            } else {
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $short_description = substr($row["description"], 0, 100) . (strlen($row["description"]) > 100 ? '...' : '');
+                        echo '<div class="col-md-4 element-animate">';
+                        echo '<a href="product-details.php?id=' . htmlspecialchars($row["id"]) . '" class="link-thumbnail">';
+                        echo '<h3>' . htmlspecialchars($row["name"]) . '</h3>';
+                        echo '<span class="ion-plus icon"></span>';
+                        echo '<img src="' . htmlspecialchars($row["image_path"]) . '" alt="' . htmlspecialchars($row["name"]) . '" class="img-fluid">';
+                        echo '</a>';
+                        echo '</div>';
+                    }
+                } else {
+                    echo '<p>No products available.</p>';
+                }
+            }
+
+            // Close connection
+            $conn->close();
+            ?>
         </div>
-        
-      </div>
-    </section>
-    <!-- END section -->
+    </div>
+</section>
+
 
     <section class="section blog">
-      <div class="container">
-
+    <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
-          <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Blog Posts</h2>
-            <p class="mb-5 lead">
-              Bioseptic Waterindo Abadi adalah produsen sensor cuaca swasta dan penyedia solusi sensor lingkungan.
-              </p>
-          </div>
+            <div class="col-md-8 text-center">
+                <h2 class="heading mb-4">Blog Posts</h2>
+                <p class="mb-5 lead">
+                    Bioseptic Waterindo Abadi adalah produsen sensor cuaca swasta dan penyedia solusi sensor lingkungan.
+                </p>
+            </div>
         </div>
 
         <div class="row">
-          <div class="col-md-6">
+            <?php
+            include './db/db_connect.php';
 
-            <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="#" class="mr-5"><img src="images/industrial_blog_1.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="#">How to handle any intercate custom design</a></h3>
-                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
-            </div>
+            $sql = "SELECT id, title, image, excerpt, post_date FROM blog_posts ORDER BY post_date DESC";
+            $result = $conn->query($sql);
 
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo '<div class="col-md-6">';
+                    echo '<div class="media mb-4 d-md-flex d-block element-animate">';
+                    echo '<a href="blog-single.php?id=' . htmlspecialchars($row["id"]) . '" class="mr-5"><img src="' . htmlspecialchars($row["image"]) . '" alt="' . htmlspecialchars($row["title"]) . '" class="img-fluid"></a>';
+                    echo '<div class="media-body">';
+                    echo '<span class="post-meta">' . date("F jS, Y", strtotime($row["post_date"])) . '</span>';
+                    echo '<h3 class="mt-2 text-danger"><a href="blog-single.php?id=' . htmlspecialchars($row["id"]) . '">' . htmlspecialchars($row["title"]) . '</a></h3>';
+                    echo '<p>' . htmlspecialchars($row["excerpt"]) . '</p>';
+                    echo '<p><a href="blog-single.php?id=' . htmlspecialchars($row["id"]) . '" class="readmore text-danger">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                }
+            } else {
+                echo '<p>No blog posts available.</p>';
+            }
 
-
-          </div>
-          <div class="col-md-6">
-            <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="#" class="mr-5"><img src="images/industrial_blog_2.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="#">How to handle any intercate custom design</a></h3>
-                <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
-            </div>
-
-            <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="#" class="mr-5"><img src="images/industrial_blog_3.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="#">How to handle any intercate custom design</a></h3>
-                <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
-            </div>
-
-          </div>
+            $conn->close();
+            ?>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
+
     
-      <footer class="site-footer bg-fixed" role="contentinfo">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4 mb-5">
-            <h3>About The Industrial</h3>
-            <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .</p>
-            <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
-            </ul>
-
-          </div>
-          <div class="col-md-5 mb-5 pl-md-5">
-            <h3>Contact Info</h3>
-            <ul class="list-unstyled footer-link">
-              <li class="d-block">
-                <span class="d-block">Address:</span>
-                <span >34 Street Name, City Name Here, United States</span></li>
-              <li class="d-block"><span class="d-block">Telephone:</span><span >+1 242 4942 290</span></li>
-              <li class="d-block"><span class="d-block">Email:</span><span >info@yourdomain.com</span></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Quick Links</h3>
-            <ul class="list-unstyled footer-link">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Disclaimers</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-          
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 text-md-center text-left">
-             <p class="copyright">
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Bioseptic Waterindo Abadi
-            </p>
-          </div>
-        </div>
+    
+<footer class="site-footer bg-fixed" role="contentinfo">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-4 mb-5">
+        <h3>About The Bioseptic Waterindo Abadi</h3>
+        <p class="mb-5">PT Bioseptic Waterindo Abadi (Bio) menyediakan layanan EPC, O&M, peralatan pengolahan air dan limbah, serta pelatihan untuk supervisor dan operator. Kami mematuhi standar ISO 9001, ISO 14001, dan ISO 18001, didukung teknologi dari Nordic Water Swedia, dan juga menawarkan sensor cuaca serta sensor lingkungan.</p>
+        <ul class="list-unstyled footer-link d-flex footer-social">
+          <li><a href="#" class="p-2"><span class="fa fa-twitter text-danger"></span></a></li>
+          <li><a href="#" class="p-2"><span class="fa fa-facebook text-danger"></span></a></li>
+          <li><a href="https://id.linkedin.com/company/bioseptic-waterindo-abadi" class="p-2" target="_blank"><span class="fa fa-linkedin text-danger"></span></a></li>
+          <li><a href="https://www.instagram.com/bioseptic.co.id/" class="p-2" target="_blank"><span class="fa fa-instagram text-danger"></span></a></li>
+        </ul>
       </div>
-    </footer>
-    <!-- END footer -->
+      <div class="col-md-5 mb-5 pl-md-5">
+        <h3>Contact Info</h3>
+        <ul class="list-unstyled footer-link">
+          <li class="d-block">
+            <span class="d-block">Production Office Location:</span>
+            <div class="address-group">
+              <span>Ruko Batavia Blok LC9/29, Kelapa Gading, Jakarta Utara</span>
+              <br>
+              <span class="d-block address-separator">Main Office Location:</span>
+              <span>Jl. Gading Kirana Utara No.8 Blok F10, RT.11/RW.8, West Kelapa Gading, Kelapa Gading, North Jakarta City, Jakarta 14240</span>
+            </div>
+          </li>
+          <li class="d-block">
+            <span class="d-block">Telephone:</span>
+            <span>+62 </span>
+          </li>
+          <li class="d-block">
+            <span class="d-block">Email:</span>
+            <span>info@gmail.com</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-5">
+        <h3>Quick Links</h3>
+        <ul class="list-unstyled footer-link">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Disclaimers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <!-- Empty column for layout consistency -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-md-center text-left">
+        <p class="copyright">
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Bioseptic Waterindo Abadi
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END footer -->
 
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>

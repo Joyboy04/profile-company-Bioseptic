@@ -7653,9 +7653,7 @@ header {
       margin-left: 0.5em; }
       .slider-item .slider-text h1 span {
         color: white;
-        background-color: #fd5f00;
-        -webkit-box-shadow: 0.5em 0 0 #fd5f00,-0.5em 0 0 #fd5f00;
-        box-shadow: 0.5em 0 0 #fd5f00,-0.5em 0 0 #fd5f00; }
+         }
       @media (max-width: 991.98px) {
         .slider-item .slider-text h1 {
           font-size: 40px; } }
@@ -7858,7 +7856,7 @@ header {
   .site-footer p:last-child {
     margin-bottom: 0; }
   .site-footer a {
-    color: #fd5f00;
+    color: white;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
     .site-footer a:hover {
       color: #000;
@@ -8320,6 +8318,15 @@ header {
 .site-footer ul li {
   color: #ffffff; /* Set paragraph and list item text color */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add shadow to paragraphs and list items */
+}
+
+.address-group {
+  margin-bottom: 20px; /* Adds space below the entire address block */
+}
+
+.address-separator {
+  margin-top: 15px; /* Adds space between the two addresses */
+  display: block; /* Ensures it starts on a new line */
 }
 
 .custom-button {
