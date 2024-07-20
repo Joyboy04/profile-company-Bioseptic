@@ -305,8 +305,7 @@
     </div>
 </section>
 
-    
-    
+
 <footer class="site-footer bg-fixed" role="contentinfo">
   <div class="container">
     <div class="row mb-5">
