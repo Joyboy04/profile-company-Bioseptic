@@ -26,7 +26,7 @@
     <header role="banner">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <img src="./images/logo_bio_baru(1).png" alt="Bio Logo" class="logo">
             <div class="brand-text">
               <strong class="brand-title">WEATHER SENSORS & ENVIRONMENTAL SENSORS</strong><br>
@@ -40,10 +40,10 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav pl-md-5 ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link active" href="index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="projects.html">Projects</a>
@@ -72,7 +72,7 @@
     <div class="top-shadow"></div>
 
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('images/17005367439049.jpg');">
+      <div class="slider-item" style="background-image: url('images/hero1.png');">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -82,7 +82,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url('images/f7ef22a987a058a51320678995872af1.jpg');">
+      <div class="slider-item" style="background-image: url('images/hero2.png');">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -116,7 +116,7 @@
               <div class="align-self-center">
                 <span class="ion ion-easel display-4 text-danger"></span>
                 <h3>proffesional</h3>
-                <p>Bio menerapkan standar pengembangan seperti ISO9001 dan standar CE-EMC secara ketat, serta menguji sensor dan stasiun cuaca sesuai dengan standar WMO.</p>
+                <p>BIO menerapkan standar pengembangan seperti ISO9001 dan standar CE-EMC secara ketat, serta menguji sensor dan stasiun cuaca sesuai dengan standar WMO.</p>
               </div>
             </div>
 
@@ -245,7 +245,6 @@
                         echo '<div class="col-md-4 element-animate">';
                         echo '<a href="product-details.php?id=' . htmlspecialchars($row["id"]) . '" class="link-thumbnail">';
                         echo '<h3>' . htmlspecialchars($row["name"]) . '</h3>';
-                        echo '<span class="ion-plus icon"></span>';
                         echo '<img src="' . htmlspecialchars($row["image_path"]) . '" alt="' . htmlspecialchars($row["name"]) . '" class="img-fluid">';
                         echo '</a>';
                         echo '</div>';
@@ -344,7 +343,7 @@
       <div class="col-md-3 mb-5">
         <h3>Quick Links</h3>
         <ul class="list-unstyled footer-link">
-          <li><a href="#">About</a></li>
+          <li><a href="about.php">About</a></li>
           <li><a href="#">Terms of Use</a></li>
           <li><a href="#">Disclaimers</a></li>
           <li><a href="#">Contact</a></li>

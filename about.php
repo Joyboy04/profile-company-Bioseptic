@@ -43,7 +43,7 @@
                 <a class="nav-link" href="index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="about.html">About</a>
+                <a class="nav-link active" href="about.php">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="projects.html">Projects</a>
@@ -82,11 +82,10 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
-    
-    
+    <!-- END slider -->
+
 
     <section>
       <section class="section">
@@ -97,61 +96,81 @@
               <p>Tim penjualan profesional kami menyediakan produk berkualitas tinggi dan layanan purna jual yang memuaskan. Dengan lebih dari 10 tahun pengalaman industri dalam sensor cuaca, instrumen pemantauan cuaca, dan sensor pemantauan lingkungan, kami telah menjadi pemimpin di bidang ini. Sensor Bio telah diekspor ke lebih dari 50 negara dan wilayah, termasuk Vietnam, AS, Jerman, Italia, Spanyol, Denmark, Korea Selatan, India, dan lain-lain.</p>
             </div>
           </div>
+
       <div class="half d-lg-flex d-block">
         <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Experience.jpg')"></div>
         <div class="text text-left element-animate">
           <h3 class="mb-4">Experience</h3>
-          <p class="mb-5">Tim teknis Bio Sensors berpengalaman luas. Saat ini, kami telah bekerja di bidang pemantauan kualitas udara, pengolahan air, akuakultur, dan lainnya, serta menyediakan solusi meteorologi dan pemantauan lingkungan yang unggul.</p>
+          <p class="mb-5">Tim teknis BIO Sensors berpengalaman luas. Saat ini, kami telah bekerja di bidang pemantauan kualitas udara, pengolahan air, akuakultur, dan lainnya, serta menyediakan solusi meteorologi dan pemantauan lingkungan yang unggul.</p>
         </div>
       </div>
 
       <div class="half d-lg-flex d-block">
-        <div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('images/industrial_hero_2.jpg')"></div>
-        <div class="text text-center element-animate">
-          <h3 class="mb-4">Company History</h3>
-          <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          
-          <p><a href="#" class="btn btn-primary btn-sm px-3 py-2">Learn More</a></p>
+        <div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Process.jpg')"></div>
+        <div class="text text-left element-animate">
+          <h3 class="mb-4">Process</h3>
+          <p class="mb-5">BIO Sensors memiliki lini produksi berstandar Jerman, manajemen produksi yang ketat, serta inspeksi dan pengendalian berlapis. Semangat kerja yang mengedepankan keunggulan menjamin kualitas produk yang luar biasa.</p> 
+        </div>
+      </div>
+
+      <div class="half d-lg-flex d-block">
+        <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/professional.jpg')"></div>
+        <div class="text text-left element-animate">
+          <h3 class="mb-4">Professional</h3>
+          <p class="mb-5">BIO menerapkan standar pengembangan seperti ISO9001 dan standar CE-EMC secara ketat, serta menguji sensor dan stasiun cuaca sesuai dengan standar WMO.</p>
+        </div>
+      </div>
+
+      <div class="half d-lg-flex d-block">
+        <div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Service.jpg')"></div>
+        <div class="text text-left element-animate">
+          <h3 class="mb-4">Service</h3>
+          <p class="mb-5">BIO Sensors menyediakan layanan luar biasa untuk sensor OEM, mulai dari analisis kebutuhan dan desain pengembangan, hingga kalibrasi, produksi, dan pengiriman. Kami berkomitmen untuk memenuhi kebutuhan Anda dalam batas yang wajar dan memberikan solusi profesional untuk pemantauan lingkungan serta meteorologi.</p> 
         </div>
       </div>
 
     </section>
 
     <section class="section bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4 element-animate ">
-            <div class="media block-6 d-block text-center">
-              <div class="icon mb-3"><span class="ion-android-notifications text-primary"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Modern Design</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>  
+    <div class="container mt-5">
+  <h2 class="text-center mb-5">Our Certificate</h2>
+  <p class="text-center">As a professional manufacturer for weather sensors, environmental sensor, Rika have many certificates for high standard.</p>
+  
+  <div class="scrolling-wrapper animated" id="scrolling-wrapper">
+  <div class="certificate" onclick="openFullscreen('images/sertifikasi/WEF.PNG')">
+    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="CE-EMC Ultrasonic Weather Station">
+    <p class="certificate-text text-center">CE-EMC Ultrasonic Weather Station</p>
+  </div>
+  <div class="certificate" onclick="openFullscreen('cert2.png')">
+    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="EMC Report">
+    <p class="certificate-text text-center">EMC Report</p>
+  </div>
+  <div class="certificate" onclick="openFullscreen('cert3.png')">
+    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="IP65 Ultrasonic Wind Speed & Direction Sensor">
+    <p class="certificate-text text-center">IP65 Ultrasonic Wind Speed & Direction Sensor</p>
+  </div>
+  <div class="certificate" onclick="openFullscreen('cert4.png')">
+    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="ISO9001">
+    <p class="certificate-text text-center">ISO9001</p>
+  </div>
+  <div class="certificate" onclick="openFullscreen('cert4.png')">
+    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="ISO9001">
+    <p class="certificate-text text-center">ISO9001</p>
+  </div>
+  <div class="certificate" onclick="openFullscreen('cert4.png')">
+    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="ISO9001">
+    <p class="certificate-text text-center">ISO9001</p>
+  </div>
+  <div class="certificate" onclick="openFullscreen('cert4.png')">
+    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="ISO9001">
+    <p class="certificate-text text-center">ISO9001</p>
+  </div>
 
-          </div>
-          <div class="col-md-6 col-lg-4 element-animate ">
-            <div class="media block-6 d-block text-center">
-              <div class="icon mb-3"><span class="ion-heart text-primary"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Built With Passion</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div> 
-
-          </div>
-          <div class="col-md-6 col-lg-4 element-animate ">
-            <div class="media block-6 d-block text-center">
-              <div class="icon mb-3"><span class="ion-flash text-primary"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Fast Loading</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div> 
-
-          </div>
-        </div>
-      </div>
+    <div id="fullscreenModal" class="fullscreen-modal" onclick="closeFullscreen()">
+        <img id="fullscreenImage" src="" alt="Fullscreen Image">
+    </div>
+    
+</div>
     </section>
     <!-- END section -->
 
@@ -274,7 +293,7 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
 
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
   
   </body>
 </html>
