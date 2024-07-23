@@ -8360,6 +8360,7 @@ header {
   width: 200px;
   margin: 10px;
   text-align: center;
+  margin-right: 20px;
   transition: transform 1s ease-in-out;
 }
 
@@ -8382,8 +8383,8 @@ header {
 }
 
 .fullscreen-modal img {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 

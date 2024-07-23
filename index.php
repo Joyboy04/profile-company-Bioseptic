@@ -195,14 +195,14 @@
       <div class="container">
         <div class="row align-items-center mb-5">
           <div class="col-lg-7 order-md-1">
-            <div class="scaling-image"><div class="frame"><img src="images/15740779863691.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div></div>
+            <div class="scaling-image"><div class="frame"><img src="images/water.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div></div>
           </div>
           <div class="col-md-5 pl-md-5 mb-5 order-md-2">
             <div class="block-41">
               <h2 class="block-41-heading mb-5">Pengolahan Air</h2>
               <div class="block-41-text">
                 <p>Kami menyediakan berbagai peralatan pengolahan air, baik yang merupakan inovasi internal maupun impor dari mitra internasional kami. Salah satu mitra utama kami, Nordic Water Swedia, mendukung kami dalam menyediakan teknologi terkini untuk pengolahan air.</p>
-                <p><a href="#" class="readmore text-danger">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
+                <p><a href="http://bioseptic.co.id/" target="_blank" class="readmore text-danger">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
               </div>
             </div>
           </div>

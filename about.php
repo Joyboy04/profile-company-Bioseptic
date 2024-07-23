@@ -134,36 +134,32 @@
     <section class="section bg-light">
     <div class="container mt-5">
   <h2 class="text-center mb-5">Our Certificate</h2>
-  <p class="text-center">As a professional manufacturer for weather sensors, environmental sensor, Rika have many certificates for high standard.</p>
+  <p class="text-center mb-3">As a professional manufacturer for weather sensors, environmental sensor, BIO Sensors have many certificates for high standard.</p>
   
   <div class="scrolling-wrapper animated" id="scrolling-wrapper">
   <div class="certificate" onclick="openFullscreen('images/sertifikasi/WEF.PNG')">
     <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="CE-EMC Ultrasonic Weather Station">
-    <p class="certificate-text text-center">CE-EMC Ultrasonic Weather Station</p>
+    <p class="certificate-text text-center">WEF Member</p>
   </div>
   <div class="certificate" onclick="openFullscreen('cert2.png')">
-    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="EMC Report">
-    <p class="certificate-text text-center">EMC Report</p>
+    <img src="images/sertifikasi/ISO_9001.jpg" class="certificate-img" alt="EMC Report">
+    <p class="certificate-text text-center">ISO 9001</p>
   </div>
   <div class="certificate" onclick="openFullscreen('cert3.png')">
-    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="IP65 Ultrasonic Wind Speed & Direction Sensor">
-    <p class="certificate-text text-center">IP65 Ultrasonic Wind Speed & Direction Sensor</p>
+    <img src="images/sertifikasi/ISO_14001.jpg" class="certificate-img" alt="IP65 Ultrasonic Wind Speed & Direction Sensor">
+    <p class="certificate-text text-center">ISO 14001</p>
   </div>
   <div class="certificate" onclick="openFullscreen('cert4.png')">
-    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="ISO9001">
-    <p class="certificate-text text-center">ISO9001</p>
+    <img src="images/sertifikasi/ISO_18001.jpg" class="certificate-img" alt="ISO9001">
+    <p class="certificate-text text-center">ISO 18001</p>
   </div>
   <div class="certificate" onclick="openFullscreen('cert4.png')">
-    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="ISO9001">
-    <p class="certificate-text text-center">ISO9001</p>
+    <img src="images/sertifikasi/SERTIFIKAT-LITBANG1.jpg" class="certificate-img" alt="ISO9001">
+    <p class="certificate-text text-center">Sertifikas Litbang</p>
   </div>
   <div class="certificate" onclick="openFullscreen('cert4.png')">
-    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="ISO9001">
-    <p class="certificate-text text-center">ISO9001</p>
-  </div>
-  <div class="certificate" onclick="openFullscreen('cert4.png')">
-    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="ISO9001">
-    <p class="certificate-text text-center">ISO9001</p>
+    <img src="images/sertifikasi/nordic-water.jpg" class="certificate-img" alt="ISO9001">
+    <p class="certificate-text text-center">Nordic Water Agreement</p>
   </div>
 
     <div id="fullscreenModal" class="fullscreen-modal" onclick="closeFullscreen()">
@@ -180,45 +176,38 @@
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
-            <h2 class="heading mb-4">Meet The Team</h2>
-            <p class="mb-5 lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+            <h2 class="heading mb-4">Dewan Direksi</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center"> <!-- Added justify-content-center class here -->
           <div class="col-lg-3">
             <div class="media d-block media-custom text-center">
-              <a href="#"><img src="images/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
+              <a href="#"><img src="images/direksi/Bp-Enuch.jpeg" alt="Image Placeholder" class="img-fluid"></a>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Mellisa Howard</h3>
+                <h3 class="mt-0 text-black">Penny Enuch</h3>
+                <p class="lead">Direktur Utama</p>
               </div>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="media d-block media-custom text-center">
-              <a href="#"><img src="images/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
+              <a href="#"><img src="images/direksi/Hendro-Angkasa-1.jpeg" alt="Image Placeholder" class="img-fluid"></a>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Mike Richardson</h3>
+                <h3 class="mt-0 text-black">Hendro Angkasa</h3>
+                <p class="lead">Manager Konstruksi & Engineering</p>
               </div>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="media d-block media-custom text-center">
-              <a href="#"><img src="images/person_4.jpg" alt="Image Placeholder" class="img-fluid"></a>
+              <a href="#"><img src="images/direksi/Pak-Winoto-1.jpg" alt="Image Placeholder" class="img-fluid"></a>
               <div class="media-body">
-                <h3 class="mt-0 text-black">Laura Smith</h3>
+                <h3 class="mt-0 text-black">Antonius Winoto</h3>
+                <p class="lead">Direktur Marketing</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
-            <div class="media d-block media-custom text-center">
-              <a href="#"><img src="images/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
-              <div class="media-body">
-                <h3 class="mt-0 text-black">Kevin Gold</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+        </div> <!-- Closing .row div -->
       </div>
     </section>
     <!-- END section -->
