@@ -46,7 +46,7 @@
                 <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="projects.php">Projects</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
@@ -90,7 +90,16 @@
             </div>
           </div>
         </div>
-        
+      </div>
+
+      <div class="slider-item" style="background-image: url('images/hero3.png');">
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-lg-7 text-center col-sm-12 element-animate">
+              <p class="mb-5 w-75">Bioseptic Waterindo Abadi adalah produsen sensor cuaca dan lingkungan dengan lebih dari 10 tahun pengalaman. Kami menyediakan produk berkualitas dan layanan EPC serta O&M untuk kebutuhan pemantauan.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
     </section>
@@ -168,30 +177,8 @@
       </div>
     </section>
   <!-- END section -->
-    
-    
 
     <section class="section element-animate">
-      <div class="container">
-        <div class="row align-items-center mb-5">
-          <div class="col-lg-7 order-md-2">
-            <div class="scaling-image"><div class="frame"><img src="images/monitor.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div></div>
-          </div>
-          <div class="col-md-5 pr-md-5 mb-5">
-            <div class="block-41">
-              <h2 class="block-41-heading mb-5">Pemantauan Hidrologi</h2>
-              <div class="block-41-text">
-                <p>Kami menyediakan solusi pemantauan hidrologi yang lengkap, termasuk peralatan inovatif dari pengembangan internal dan impor dari mitra internasional kami.</p>
-                <p><a href="#" class="readmore text-danger">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-
-    <section class="section element-animate bg-light">
       <div class="container">
         <div class="row align-items-center mb-5">
           <div class="col-lg-7 order-md-1">
@@ -205,8 +192,26 @@
                 <p><a href="http://bioseptic.co.id/" target="_blank" class="readmore text-danger">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
               </div>
             </div>
+          </div>    
+        </div>
+      </div>
+    </section>
+
+    <section class="section element-animate  bg-light">
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-7 order-md-2">
+            <div class="scaling-image"><div class="frame"><img src="images/monitor.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div></div>
           </div>
-          
+          <div class="col-md-5 pr-md-5 mb-5">
+            <div class="block-41">
+              <h2 class="block-41-heading mb-5">Pemantauan Hidrologi</h2>
+              <div class="block-41-text">
+                <p>Kami menyediakan solusi pemantauan hidrologi yang lengkap, termasuk peralatan inovatif dari pengembangan internal dan impor dari mitra internasional kami.</p>
+                <p><a href="#" class="readmore text-danger">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
+              </div>
+            </div>
+          </div> 
         </div>
       </div>
     </section>

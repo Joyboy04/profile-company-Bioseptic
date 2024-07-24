@@ -26,7 +26,7 @@
     <header role="banner">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <img src="./images/logo_bio_baru(1).png" alt="Bio Logo" class="logo">
             <div class="brand-text">
               <strong class="brand-title">WEATHER SENSORS & ENVIRONMENTAL SENSORS</strong><br>
@@ -46,7 +46,7 @@
                 <a class="nav-link active" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="projects.php">Projects</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
@@ -77,7 +77,7 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
-              <h1 class="pt-5"><span>About Us</span></h1>
+              <h1 class="pt-5"><span>Tentang Kami</span></h1>
               <p class="mb-5 w-75">PT Bioseptic Waterindo Abadi (Bio) menyediakan layanan EPC, O&M, peralatan pengolahan air dan limbah, serta sensor cuaca dan lingkungan. Kami mematuhi standar ISO dan didukung teknologi Nordic Water Swedia.</p>
             </div>
           </div>
@@ -133,33 +133,41 @@
 
     <section class="section bg-light">
     <div class="container mt-5">
-  <h2 class="text-center mb-5">Our Certificate</h2>
-  <p class="text-center mb-3">As a professional manufacturer for weather sensors, environmental sensor, BIO Sensors have many certificates for high standard.</p>
+  <h2 class="text-center mb-5">Sertifikasi</h2>
+  <p class="text-center mb-3">Sebagai produsen profesional sensor cuaca dan sensor lingkungan, BIO Sensor memiliki banyak sertifikat untuk standar tinggi.</p>
   
   <div class="scrolling-wrapper animated" id="scrolling-wrapper">
-  <div class="certificate" onclick="openFullscreen('images/sertifikasi/WEF.PNG')">
-    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="CE-EMC Ultrasonic Weather Station">
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1U9bbZZ3JN_F1-LZOjFT3vRcI4uCXapgj/view?usp=sharing')">
+    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="WEF">
     <p class="certificate-text text-center">WEF Member</p>
   </div>
-  <div class="certificate" onclick="openFullscreen('cert2.png')">
-    <img src="images/sertifikasi/ISO_9001.jpg" class="certificate-img" alt="EMC Report">
-    <p class="certificate-text text-center">ISO 9001</p>
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iEGV6NNkmQ4lnOjS9KmKShkQOD9ytuBo/view?usp=sharing')">
+    <img src="images/sertifikasi/ISO.jpg" class="certificate-img" alt="ISO">
+    <p class="certificate-text text-center">ISO 9001,14001,45001</p>
   </div>
-  <div class="certificate" onclick="openFullscreen('cert3.png')">
-    <img src="images/sertifikasi/ISO_14001.jpg" class="certificate-img" alt="IP65 Ultrasonic Wind Speed & Direction Sensor">
-    <p class="certificate-text text-center">ISO 14001</p>
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1sKxRIzZm279FF9N8w_0_GoUQ3oz7dosH/view?usp=sharing')">
+    <img src="images/sertifikasi/sertifikat-merek.jpg" class="certificate-img" alt="Sertifikat Merek">
+    <p class="certificate-text text-center">Hak Merek Sertifikat</p>
   </div>
-  <div class="certificate" onclick="openFullscreen('cert4.png')">
-    <img src="images/sertifikasi/ISO_18001.jpg" class="certificate-img" alt="ISO9001">
-    <p class="certificate-text text-center">ISO 18001</p>
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1t_VHfnug2-JOfSgMcxvbRZjDl4hTKTx-/view?usp=sharing')">
+    <img src="images/sertifikasi/tkdn.jpg" class="certificate-img" alt="Sertifikat TKDN">
+    <p class="certificate-text text-center">Sertifikat TKDN</p>
   </div>
-  <div class="certificate" onclick="openFullscreen('cert4.png')">
-    <img src="images/sertifikasi/SERTIFIKAT-LITBANG1.jpg" class="certificate-img" alt="ISO9001">
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/17-iU9hw-bg5Tk0WKRgMDJig1OXQnQPaz/view?usp=sharing')">
+    <img src="images/sertifikasi/SERTIFIKAT-LITBANG1.jpg" class="certificate-img" alt="Sertifikat Litbang">
     <p class="certificate-text text-center">Sertifikas Litbang</p>
   </div>
-  <div class="certificate" onclick="openFullscreen('cert4.png')">
-    <img src="images/sertifikasi/nordic-water.jpg" class="certificate-img" alt="ISO9001">
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1aYryMFzYBKfDIxKRxzPe8X5gkle52tMb/view?usp=sharing')">
+    <img src="images/sertifikasi/nordic-water.jpg" class="certificate-img" alt="Sertifikat Nordic">
     <p class="certificate-text text-center">Nordic Water Agreement</p>
+  </div>
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1ghpoRxPVbJku5q-tzUaczKey_J0840VK/view?usp=sharing')">
+    <img src="images/sertifikasi/sertifikat-uji.jpg" class="certificate-img" alt="Sertifikat Uji Konektivitas">
+    <p class="certificate-text text-center">Serifikat Uji Konektivitas</p>
+  </div>
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iCzBtCFbU5sQiT_ZL6a9Og7gJLrDYB3i/view?usp=sharing')">
+    <img src="images/sertifikasi/sertifikat-validasi.jpg" class="certificate-img" alt="Sertifikat Uji Validasi">
+    <p class="certificate-text text-center">Sertifikat Uji Validasi</p>
   </div>
 
     <div id="fullscreenModal" class="fullscreen-modal" onclick="closeFullscreen()">

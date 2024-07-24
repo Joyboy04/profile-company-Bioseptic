@@ -1,17 +1,9 @@
 function openFullscreen(src) {
-    var modal = document.getElementById("fullscreenModal");
-    var img = document.getElementById("fullscreenImage");
-    img.src = src;
-    modal.style.display = "flex";
-}
-
-function closeFullscreen() {
-    var modal = document.getElementById("fullscreenModal");
-    modal.style.display = "none";
+    window.open(src, '_blank'); // Open image in a new tab
 }
 
 let scrollPosition = 0;
-const speed = 1; // Adjust this value to change scroll speed
+let speed = 1; // Initial scroll speed
 
 function calculateInitialScrollPosition(wrapper, totalWidth) {
     const wrapperWidth = wrapper.offsetWidth;
@@ -20,7 +12,6 @@ function calculateInitialScrollPosition(wrapper, totalWidth) {
 
 function adjustInitialPosition(wrapper) {
     const certificates = document.querySelectorAll('.certificate');
-    const first = certificates[0];
     const totalWidth = Array.from(certificates).reduce((total, cert) => {
         return total + cert.offsetWidth + parseFloat(getComputedStyle(cert).marginRight) + parseFloat(getComputedStyle(cert).marginLeft);
     }, 0);
@@ -30,7 +21,7 @@ function adjustInitialPosition(wrapper) {
     wrapper.style.transform = `translateX(${-scrollPosition}px)`;
 }
 
-function autoScroll() {
+function autoScroll(timestamp) {
     const wrapper = document.getElementById('scrolling-wrapper');
     const certificates = document.querySelectorAll('.certificate');
     const first = certificates[0];
@@ -65,5 +56,6 @@ function autoScroll() {
 window.onload = () => {
     const wrapper = document.getElementById('scrolling-wrapper');
     adjustInitialPosition(wrapper); // Adjust the position to be centered initially
+
     requestAnimationFrame(autoScroll);
 };

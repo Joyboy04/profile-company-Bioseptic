@@ -7619,7 +7619,7 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   height: calc(100vh);
-  min-height: 700px;
+  min-height: 500px;
   position: relative; }
   .slider-item:before {
     content: "";
@@ -8353,20 +8353,22 @@ header {
   width: 100%;
   position: relative;
   justify-content: center;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .certificate {
-  flex: 0 0 auto;
-  width: 200px;
+  display: inline-block;
+  width: 500px;
   margin: 10px;
   text-align: center;
-  margin-right: 20px;
   transition: transform 1s ease-in-out;
+  cursor: pointer;
 }
 
 .certificate-img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .fullscreen-modal {
@@ -8380,11 +8382,12 @@ header {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 1000; /* Ensure the modal is above other elements */
 }
 
 .fullscreen-modal img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 

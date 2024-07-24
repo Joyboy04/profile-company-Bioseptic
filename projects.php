@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Industrial &mdash; Website Template by Colorlin</title>
+    <title>PT Bioseptic Waterindo Abadi | About Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
 
@@ -17,13 +18,21 @@
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="icon" type="image/png" href="./images/logo_bio_baru(1).png">
+
   </head>
   <body>
     
     <header role="banner">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand " href="index.html">Industrial</a>
+          <a class="navbar-brand" href="index.php">
+            <img src="./images/logo_bio_baru(1).png" alt="Bio Logo" class="logo">
+            <div class="brand-text">
+              <strong class="brand-title">WEATHER SENSORS & ENVIRONMENTAL SENSORS</strong><br>
+              <span class="brand-subtitle">BIOSEPTIC WATERINDO ABADI</span>
+            </div>
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -31,13 +40,13 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav pl-md-5 ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="projects.html">Projects</a>
+                <a class="nav-link active" href="projects.php">Projects</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
@@ -53,15 +62,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
-            </ul>
-
-            <div class="navbar-nav ml-auto">
-              <form method="post" class="search-form">
-                <span class="icon ion ion-search"></span>
-                <input type="text" class="form-control" placeholder="Search...">
-              </form>
-            </div>
-            
+            </ul>           
           </div>
         </div>
       </nav>
@@ -71,13 +72,12 @@
     <div class="top-shadow"></div>
     
     <div class="inner-page">
-    <div class="slider-item" style="background-image: url('images/industrial_hero_1.jpg');">
+    <div class="slider-item" style="background-image: url('images/peta-sebaran.jpg');">
         
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
-              <h1 class="pt-5"><span>Our Projects</span></h1>
-              <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nostrum nihil voluptas consequuntur temporibus repellat!</p>
+              <h1 class="pt-5"><span>Sebaran Proyek Bioseptic Di Indonesia</span></h1>
             </div>
           </div>
         </div>
@@ -90,8 +90,8 @@
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Projects</h2>
-            <p class="mb-5 lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <h2 class=" heading mb-4">Proyek</h2>
+            <p class="mb-5 lead">Sebaran Proyek Bioseptic Di Indonesia</p>
           </div>
         </div>
       </div>
@@ -99,23 +99,20 @@
         <div class="row no-gutters">
           <div class="col-md-4 element-animate">
             <a href="project-single.html" class="link-thumbnail">
-              <h3>Ducting Design in Colorado</h3>
-              <span class="ion-plus icon"></span>
-              <img src="industrial_img_1.jpg" alt="Image" class="img-fluid">
+              <h3>Airport City</h3>
+              <img src="images/projects/Airport-City.jpg" alt="Airpot-City" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
             <a href="project-single.html" class="link-thumbnail">
-              <h3>Tanks Project In California</h3>
-              <span class="ion-plus icon"></span>
-              <img src="industrial_img_2.jpg" alt="Image" class="img-fluid">
+              <h3>Alila Soori Bali</h3>
+              <img src="images/projects/Alila-Bali.jpg" alt="Alila-Soori-Bali" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
             <a href="project-single.html" class="link-thumbnail">
-              <h3>Structural Design in New York</h3>
-              <span class="ion-plus icon"></span>
-              <img src="industrial_img_3.jpg" alt="Image" class="img-fluid">
+              <h3>Amaris Semarang</h3>
+              <img src="images/projects/Amaris-Semarang.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
