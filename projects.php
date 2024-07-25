@@ -87,181 +87,265 @@
     
 
     <section class="section border-t">
-      <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
-          <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Proyek</h2>
-            <p class="mb-5 lead">Sebaran Proyek Bioseptic Di Indonesia</p>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row justify-content-center mb-5 element-animate">
+      <div class="col-md-8 text-center">
+        <h2 class="heading mb-4"> Galeri Proyek</h2>
+        <p class="mb-5 lead">Temukan dan Lihat Proyek-Proyek Bioseptic di Seluruh Indonesia di Sini</p>
       </div>
-      <div class="container">
-        <div class="row no-gutters">
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Airport City</h3>
-              <img src="images/projects/Airport-City.jpg" alt="Airpot-City" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Alila Soori Bali</h3>
-              <img src="images/projects/Alila-Bali.jpg" alt="Alila-Soori-Bali" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Amaris Semarang</h3>
-              <img src="images/projects/Amaris-Semarang.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Stacks Design</h3>
-              <span class="ion-plus icon"></span>
-              <img src="industrial_img_4.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Intercate Custom</h3>
-              <span class="ion-plus icon"></span>
-              <img src="industrial_img_5.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Banker Design</h3>
-              <span class="ion-plus icon"></span>
-              <img src="industrial_img_6.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-        </div>
-        
+    </div>
+    <div class="row no-gutters">
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Alila Soori Bali</h3>
+          <img src="images/projects/Alila-Bali.jpg" alt="Alila-Soori-Bali" class="img-fluid">
+        </a>
       </div>
-    </section>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Amaris Semarang</h3>
+          <img src="images/projects/Amaris-Semarang.jpg" alt="Amaris-Semarang" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Aston Bandung</h3>
+          <img src="images/projects/Aston-Bandung.jpg" alt="Aston-Bandung" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>BAIS Bandung</h3>
+          <img src="images/projects/BAIS-Bandung.jpg" alt="BAIS-Bandung" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>BALI ULUWATU</h3>
+          <img src="images/projects/BALI-ULUWATU.jpg" alt="BALI-ULUWATU" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>BPK Penabur</h3>
+          <img src="images/projects/BPK-Penabur.jpg" alt="BPK-Penabur" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>EastPark</h3>
+          <img src="images/projects/EastPark-1.jpg" alt="EastPark" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Ecohome HOLCIM</h3>
+          <img src="images/projects/Ecohome-HOLCIM.jpg" alt="Ecohome" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Green Andara</h3>
+          <img src="images/projects/Green-Andara.jpg" alt="greenandara" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Kuningan City</h3>
+          <img src="images/projects/Kuningan-City.jpg" alt="Kuningan City" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Lippo Extention III</h3>
+          <img src="images/projects/Lippo-Extention.jpg" alt="Lippo" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Novotel Bangka</h3>
+          <img src="images/projects/Novotel-Bangka.jpg" alt="Novotel" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Paradiso</h3>
+          <img src="images/projects/Paradiso.jpg" alt="Paradiso" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>PLTU Rembang</h3>
+          <img src="images/projects/PLTU-Rembang.jpg" alt="PLTU-Rembang" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Ramayana</h3>
+          <img src="images/projects/Ramayana.jpg" alt="Ramayana" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>RSUD Cicalengka</h3>
+          <img src="images/projects/RSUD-Cicalengka.jpg" alt="Cicalengka" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Santika Medan</h3>
+          <img src="images/projects/Santika-Medan.jpg" alt="santika-medan" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>SPBU Pertamina</h3>
+          <img src="images/projects/SPBU-Pertamina.jpg" alt="spbu-pertamina" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Stadion Palaran</h3>
+          <img src="images/projects/Stadion-Palaran.jpg" alt="stadion-palaran" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Terminal 3 Soeta</h3>
+          <img src="images/projects/Terminal-3-Soeta.jpg" alt="terminal-3-soeta" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>UMN Serpong</h3>
+          <img src="images/projects/UMN.jpg" alt="UMN" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Walikota Jakarta Timur</h3>
+          <img src="images/projects/Walikota-Timur.jpg" alt="Walikota" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Airport City</h3>
+          <img src="images/projects/Airport-City.jpg" alt="Airport-City" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>KTI 600 LPS</h3>
+          <img src="images/projects/KTI-BIO-Emboss.jpg" alt="KTI" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4 col-lg-3 element-animate">
+        <a href="project-single.html" class="link-thumbnail">
+          <h3>Freeport Papua</h3>
+          <img src="images/projects/Freeprot-Papua.jpg" alt="FREEPORT" class="img-fluid">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
     <!-- END section -->
 
     <section class="section bg-light block-11">
-      <div class="container"> 
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Testimonial</h2>
+    <div class="container"> 
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8 text-center">
+          <h2 class="heading mb-4">Video Product</h2>
+        </div>
+      </div>
+      <div class="nonloop-block-11 owl-carousel">
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/_Hz5q3jNWTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
-        <div class="nonloop-block-11 owl-carousel">
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">John Smith</h2>
-                    <span class="meta">XYZ Inc</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/LYBYaroEYv8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
-
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_2.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">Joshua Darren</h2>
-                    <span class="meta">XYZ Inc.</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
+        </div>
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/4Sh-hJem97k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
-
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">John Smith</h2>
-                    <span class="meta">XYZ Inc.</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
+        </div>
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/u0z_djcKfDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
-
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">John Smith</h2>
-                    <span class="meta">XYZ Inc.</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
+        </div>
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/2cd9aabWOso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
-          
+        </div>
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/2ptjRUrZXEc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/c1pBYAJIfOk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- END .block-4 -->
-    </section>
-    
+  </section>
+<!-- END section -->
 
-    
-
-    <section class="section bg-primary">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-8">
-            <h2 class="text-white mb-0">Get Started With Industrial Free Template</h2>
-            <p class="text-white lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .</p>
-          </div>
-          <div class="col-lg-4 text-lg-right">
-            <a href="#" class="btn btn-outline-white px-4 py-3">Download This Template</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="site-footer" role="contentinfo">
+<footer class="site-footer bg-fixed" role="contentinfo">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4 mb-5">
-            <h3>About The Industrial</h3>
-            <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .</p>
+            <h3>About The Bioseptic Waterindo Abadi</h3>
+            <p class="mb-5">PT Bioseptic Waterindo Abadi (Bio) menyediakan layanan EPC, O&M, peralatan pengolahan air dan limbah, serta pelatihan untuk supervisor dan operator. Kami mematuhi standar ISO 9001, ISO 14001, dan ISO 18001, didukung teknologi dari Nordic Water Swedia, dan juga menawarkan sensor cuaca serta sensor lingkungan.</p>
             <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
+              <li><a href="#" class="p-2"><span class="fa fa-twitter text-danger"></span></a></li>
+              <li><a href="#" class="p-2"><span class="fa fa-facebook text-danger"></span></a></li>
+              <li><a href="https://id.linkedin.com/company/bioseptic-waterindo-abadi" class="p-2" target="_blank"><span class="fa fa-linkedin text-danger"></span></a></li>
+              <li><a href="https://www.instagram.com/bioseptic.co.id/" class="p-2" target="_blank"><span class="fa fa-instagram text-danger"></span></a></li>
             </ul>
-
           </div>
           <div class="col-md-5 mb-5 pl-md-5">
             <h3>Contact Info</h3>
             <ul class="list-unstyled footer-link">
               <li class="d-block">
-                <span class="d-block">Address:</span>
-                <span >34 Street Name, City Name Here, United States</span></li>
-              <li class="d-block"><span class="d-block">Telephone:</span><span >+1 242 4942 290</span></li>
-              <li class="d-block"><span class="d-block">Email:</span><span >info@yourdomain.com</span></li>
+                <span class="d-block">Production Office Location:</span>
+                <div class="address-group">
+                  <span>Ruko Batavia Blok LC9/29, Kelapa Gading, Jakarta Utara</span>
+                  <br>
+                  <span class="d-block address-separator">Main Office Location:</span>
+                  <span>Jl. Gading Kirana Utara No.8 Blok F10, RT.11/RW.8, West Kelapa Gading, Kelapa Gading, North Jakarta City, Jakarta 14240</span>
+                </div>
+              </li>
+              <li class="d-block">
+                <span class="d-block">Telephone:</span>
+                <span>+62 </span>
+              </li>
+              <li class="d-block">
+                <span class="d-block">Email:</span>
+                <span>info@gmail.com</span>
+              </li>
             </ul>
           </div>
           <div class="col-md-3 mb-5">
@@ -274,15 +358,13 @@
             </ul>
           </div>
           <div class="col-md-3">
-          
+            <!-- Empty column for layout consistency -->
           </div>
         </div>
         <div class="row">
           <div class="col-12 text-md-center text-left">
-             <p class="copyright">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <p class="copyright">
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Bioseptic Waterindo Abadi
             </p>
           </div>
         </div>
@@ -301,7 +383,7 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
 
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
     
   </body>
 </html>

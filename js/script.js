@@ -59,3 +59,22 @@ window.onload = () => {
 
     requestAnimationFrame(autoScroll);
 };
+
+$(document).ready(function(){
+    $('.nonloop-block-11').owlCarousel({
+      center: true,
+      items:1,
+      loop:true,
+      margin:10,
+      autoplay: true,
+      autoplayTimeout: 5000, // 5 seconds
+      autoplayHoverPause: true,
+      responsive:{
+        600:{
+          items:1
+        }
+      }
+    });
+  });
+  
+  
