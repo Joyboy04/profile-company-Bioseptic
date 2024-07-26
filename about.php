@@ -57,7 +57,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="blog.php">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -145,8 +145,8 @@
     <img src="images/sertifikasi/ISO.jpg" class="certificate-img" alt="ISO">
     <p class="certificate-text text-center">ISO 9001,14001,45001</p>
   </div>
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1sKxRIzZm279FF9N8w_0_GoUQ3oz7dosH/view?usp=sharing')">
-    <img src="images/sertifikasi/sertifikat-merek.jpg" class="certificate-img" alt="Sertifikat Merek">
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1az8UhYwlN20c3QFjFcWI-5ThWU7ig4ui/view?usp=sharing')">
+    <img src="images/sertifikasi/Merek.jpg" class="certificate-img" alt="Sertifikat Merek">
     <p class="certificate-text text-center">Hak Merek Sertifikat</p>
   </div>
   <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1t_VHfnug2-JOfSgMcxvbRZjDl4hTKTx-/view?usp=sharing')">
@@ -165,13 +165,12 @@
     <img src="images/sertifikasi/sertifikat-uji.jpg" class="certificate-img" alt="Sertifikat Uji Konektivitas">
     <p class="certificate-text text-center">Serifikat Uji Konektivitas</p>
   </div>
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iCzBtCFbU5sQiT_ZL6a9Og7gJLrDYB3i/view?usp=sharing')">
+  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/10pSVA-HYbZcmafvZxLsZYIroZWhYXYs0/view?usp=sharing')">
     <img src="images/sertifikasi/sertifikat-validasi.jpg" class="certificate-img" alt="Sertifikat Uji Validasi">
     <p class="certificate-text text-center">Sertifikat Uji Validasi</p>
   </div>
 
-    <div id="fullscreenModal" class="fullscreen-modal" onclick="closeFullscreen()">
-        <img id="fullscreenImage" src="" alt="Fullscreen Image">
+    <div id="fullscreenModal" class="fullscreen-modal" onclick="closeFullscreen()"
     </div>
     
 </div>
