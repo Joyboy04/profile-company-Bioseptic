@@ -349,8 +349,8 @@
         <h3>Quick Links</h3>
         <ul class="list-unstyled footer-link">
           <li><a href="about.php">About</a></li>
-          <li><a href="#">Terms of Use</a></li>
-          <li><a href="#">Disclaimers</a></li>
+          <li><a href="projects.php#product-video">Video Product</a></li>
+          <li><a href="#">Product</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>

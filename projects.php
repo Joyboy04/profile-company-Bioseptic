@@ -251,7 +251,7 @@
 
     <!-- END section -->
 
-    <section class="section bg-light block-11">
+    <section class="section bg-light block-11" id="product-video">
     <div class="container"> 
       <div class="row justify-content-center mb-5">
         <div class="col-md-8 text-center">
@@ -262,7 +262,7 @@
         <div class="item">
           <div class="block-33 h-100">
             <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/_Hz5q3jNWTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/watch?v=FMLT3-xnplk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -351,9 +351,9 @@
           <div class="col-md-3 mb-5">
             <h3>Quick Links</h3>
             <ul class="list-unstyled footer-link">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Disclaimers</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="#product-video">Video Product</a></li>
+              <li><a href="#">Product</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
