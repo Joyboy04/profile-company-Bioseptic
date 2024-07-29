@@ -7702,7 +7702,7 @@ header {
     position: relative;
     width: 0px;
     font-size: 30px;
-    color: #fd5f00; }
+    color: red; }
 
 .load-more {
   display: block;
@@ -8329,8 +8329,13 @@ header {
   display: block; /* Ensures it starts on a new line */
 }
 
+.section.bg-danger {
+  max-width: 100%; /* Adjust the maximum width of the container */
+}
+
 .custom-button {
   background-color: white;
+  font-weight: bold;
   border: none;
   color: black;
   padding: 10px 20px;
@@ -8341,6 +8346,7 @@ header {
   border-radius: 50px;
   cursor: pointer;
   margin-top: 15px;
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 .custom-button:hover {
@@ -8389,6 +8395,54 @@ header {
   width: 100%;
   height: 100%;
 }
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.flex-fill {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact-form-contact-info p {
+  margin: 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%; /* Ensures the container takes up full height */
+}
+
+.map-container iframe {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%; /* Makes the iframe fill its container */
+}
+.required::after {
+  content: '*';
+  color: red;
+  margin-left: 5px;
+}
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+
+
 
 
 

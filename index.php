@@ -48,19 +48,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="projects.php">Projects</a>
               </li>
-              <li class="nav-item dropdown">
+              <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
                   <a class="dropdown-item" href="services.html">Architectural Design</a>
                   <a class="dropdown-item" href="services.html">Interior</a>
                   <a class="dropdown-item" href="services.html">Building</a>
                 </div>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="blog.php">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.php">Contact</a>
               </li>
             </ul>           
           </div>
@@ -72,7 +72,7 @@
     <div class="top-shadow"></div>
 
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('images/hero1.png');">
+      <div class="slider-item" style="background-image: url('images/hero-1.png');">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -82,7 +82,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url('images/hero2.png');">
+      <div class="slider-item" style="background-image: url('images/hero-2.png');">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -92,7 +92,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url('images/hero3.png');">
+      <div class="slider-item" style="background-image: url('images/hero-3.png');">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -161,14 +161,65 @@
       </div>
     </section>
 
-    <section class="section bg-danger">
+
+  <!-- END section -->
+
+  <section class="section element-animate">
+  <div class="container">
+    <!-- Header -->
+    <div class="text-center mb-5">
+      <h2>Layanan Kami</h2>
+    </div>
+
+    <!-- First Service Block -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-7">
+        <div class="scaling-image">
+          <div class="frame">
+            <img src="images/water.jpg" alt="Peralatan Pengolahan Air" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 pl-md-5">
+        <div class="block-41">
+          <h3 class="block-41-heading mb-4">Pengolahan Air</h3>
+          <div class="block-41-text">
+            <p>Kami menyediakan berbagai peralatan pengolahan air, baik yang merupakan inovasi internal maupun impor dari mitra internasional kami. Salah satu mitra utama kami, Nordic Water Swedia, mendukung kami dalam menyediakan teknologi terkini untuk pengolahan air.</p>
+            <p><a href="http://bioseptic.co.id/" target="_blank" class="readmore text-danger">Baca Selengkapnya <span class="ion-android-arrow-dropright-circle"></span></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Service Block -->
+    <div class="row align-items-center mb-5 bg-light">
+      <div class="col-lg-7 order-lg-2">
+        <div class="scaling-image">
+          <div class="frame">
+            <img src="images/monitor.jpg" alt="Pemantauan Hidrologi" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 pr-md-5">
+        <div class="block-41">
+          <h3 class="block-41-heading mb-4">Pemantauan Hidrologi</h3>
+          <div class="block-41-text">
+            <p>Kami menyediakan solusi pemantauan hidrologi yang lengkap, termasuk peralatan inovatif dari pengembangan internal dan impor dari mitra internasional kami.</p>
+            <p><a href="#" class="readmore text-danger">Baca Selengkapnya <span class="ion-android-arrow-dropright-circle"></span></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-danger">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-8 element-animate text-center">
             <div class="media block-6 d-block">
               <div class="media-body">
                 <h1 class="heading text-white">Hubungi Kami untuk Penawaran Gratis Sekarang!</h1>
-                <p>Bio adalah produsen sensor cuaca dan lingkungan serta penyedia solusi pemantauan cuaca dan lingkungan. Kami adalah produsen stasiun cuaca terbaik. Hubungi kami untuk informasi lebih lanjut!</p>
                 <a href="./contact.html" class="custom-button">Contact us now</a>
               </div>
             </div> 
@@ -176,46 +227,6 @@
         </div>
       </div>
     </section>
-  <!-- END section -->
-
-    <section class="section element-animate">
-      <div class="container">
-        <div class="row align-items-center mb-5">
-          <div class="col-lg-7 order-md-1">
-            <div class="scaling-image"><div class="frame"><img src="images/water.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div></div>
-          </div>
-          <div class="col-md-5 pl-md-5 mb-5 order-md-2">
-            <div class="block-41">
-              <h2 class="block-41-heading mb-5">Pengolahan Air</h2>
-              <div class="block-41-text">
-                <p>Kami menyediakan berbagai peralatan pengolahan air, baik yang merupakan inovasi internal maupun impor dari mitra internasional kami. Salah satu mitra utama kami, Nordic Water Swedia, mendukung kami dalam menyediakan teknologi terkini untuk pengolahan air.</p>
-                <p><a href="http://bioseptic.co.id/" target="_blank" class="readmore text-danger">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
-            </div>
-          </div>    
-        </div>
-      </div>
-    </section>
-
-    <section class="section element-animate  bg-light">
-      <div class="container">
-        <div class="row align-items-center mb-5">
-          <div class="col-lg-7 order-md-2">
-            <div class="scaling-image"><div class="frame"><img src="images/monitor.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div></div>
-          </div>
-          <div class="col-md-5 pr-md-5 mb-5">
-            <div class="block-41">
-              <h2 class="block-41-heading mb-5">Pemantauan Hidrologi</h2>
-              <div class="block-41-text">
-                <p>Kami menyediakan solusi pemantauan hidrologi yang lengkap, termasuk peralatan inovatif dari pengembangan internal dan impor dari mitra internasional kami.</p>
-                <p><a href="#" class="readmore text-danger">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
-            </div>
-          </div> 
-        </div>
-      </div>
-    </section>
-    
 
     <section class="section border-t pb-0">
     <div class="container">
@@ -294,7 +305,7 @@
                     echo '<span class="post-meta">' . date("F jS, Y", strtotime($row["post_date"])) . '</span>';
                     echo '<h3 class="mt-2 text-danger"><a href="blog-single.php?id=' . htmlspecialchars($row["id"]) . '">' . htmlspecialchars($row["title"]) . '</a></h3>';
                     echo '<p>' . htmlspecialchars($row["excerpt"]) . '</p>';
-                    echo '<p><a href="blog-single.php?id=' . htmlspecialchars($row["id"]) . '" class="readmore text-danger">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>';
+                    echo '<p><a href="blog-single.php?id=' . htmlspecialchars($row["id"]) . '" class="readmore text-danger">Baca Selengkapnya<span class="ion-android-arrow-dropright-circle"></span></a></p>';
                     echo '</div>';
                     echo '</div>';
                     echo '</div>';

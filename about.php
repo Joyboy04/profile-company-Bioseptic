@@ -60,7 +60,7 @@
                 <a class="nav-link" href="blog.php">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.php">Contact</a>
               </li>
             </ul>           
           </div>
@@ -72,7 +72,7 @@
     <div class="top-shadow"></div>
     
     <div class="inner-page">
-    <div class="slider-item" style="background-image: url('images/seminar.jpg');">
+    <div class="slider-item" style="background-image: url('images/seminar.png');">
         
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
@@ -101,7 +101,7 @@
         <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Experience.jpg')"></div>
         <div class="text text-left element-animate">
           <h3 class="mb-4">Experience</h3>
-          <p class="mb-5">Tim teknis BIO Sensors berpengalaman luas. Saat ini, kami telah bekerja di bidang pemantauan kualitas udara, pengolahan air, akuakultur, dan lainnya, serta menyediakan solusi meteorologi dan pemantauan lingkungan yang unggul.</p>
+          <p class="mb-5">Tim teknis BIO Sensor berpengalaman luas. Saat ini, kami telah bekerja di bidang pemantauan kualitas udara, pengolahan air, akuakultur, dan lainnya, serta menyediakan solusi meteorologi dan pemantauan lingkungan yang unggul.</p>
         </div>
       </div>
 
@@ -109,7 +109,7 @@
         <div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Process.jpg')"></div>
         <div class="text text-left element-animate">
           <h3 class="mb-4">Process</h3>
-          <p class="mb-5">BIO Sensors memiliki lini produksi berstandar Jerman, manajemen produksi yang ketat, serta inspeksi dan pengendalian berlapis. Semangat kerja yang mengedepankan keunggulan menjamin kualitas produk yang luar biasa.</p> 
+          <p class="mb-5">BIO Sensor memiliki lini produksi berstandar Jerman, manajemen produksi yang ketat, serta inspeksi dan pengendalian berlapis. Semangat kerja yang mengedepankan keunggulan menjamin kualitas produk yang luar biasa.</p> 
         </div>
       </div>
 
@@ -125,7 +125,7 @@
         <div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Service.jpg')"></div>
         <div class="text text-left element-animate">
           <h3 class="mb-4">Service</h3>
-          <p class="mb-5">BIO Sensors menyediakan layanan luar biasa untuk sensor OEM, mulai dari analisis kebutuhan dan desain pengembangan, hingga kalibrasi, produksi, dan pengiriman. Kami berkomitmen untuk memenuhi kebutuhan Anda dalam batas yang wajar dan memberikan solusi profesional untuk pemantauan lingkungan serta meteorologi.</p> 
+          <p class="mb-5">BIO Sensor menyediakan layanan luar biasa untuk sensor OEM, mulai dari analisis kebutuhan dan desain pengembangan, hingga kalibrasi, produksi, dan pengiriman. Kami berkomitmen untuk memenuhi kebutuhan Anda dalam batas yang wajar dan memberikan solusi profesional untuk pemantauan lingkungan serta meteorologi.</p> 
         </div>
       </div>
 
