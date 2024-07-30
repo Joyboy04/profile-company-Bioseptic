@@ -1,42 +1,7 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Check if form data is set and sanitize it
-    $name = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : '';
-    $phone = isset($_POST['phone']) ? htmlspecialchars($_POST['phone']) : '';
-    $email = isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '';
-    $message = isset($_POST['message']) ? htmlspecialchars($_POST['message']) : '';
-    
-    // Validate email address
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $error = "Invalid email format";
-    } else {
-        // Email settings
-        $to = "your-email@yourdomain.com"; // Replace with your email address
-        $subject = "New contact form submission";
-        $headers = "From: " . $email . "\r\n" .
-                   "Reply-To: " . $email . "\r\n" .
-                   "X-Mailer: PHP/" . phpversion();
-        
-        // Email body
-        $body = "Name: $name\n";
-        $body .= "Phone: $phone\n";
-        $body .= "Email: $email\n";
-        $body .= "Message:\n$message\n";
-        
-        // Send email
-        if (mail($to, $subject, $body, $headers)) {
-            $success = "Message sent successfully!";
-        } else {
-            $error = "Failed to send message.";
-        }
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>PT Bioseptic Waterindo Abadi | About Us</title>
+    <title>PT Bioseptic Waterindo Abadi | Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -120,56 +85,58 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     
     
-    <section class="section">
+    <section class="section bg-light">
     <div class="container">
-      <div class="row">
-        <!-- Contact Form with Card -->
-        <div class="col-md-6 mb-5 d-flex align-items-stretch">
-          <div class="card shadow p-4 flex-fill">
-            <h3 class="mb-4 text-center">Send Inquiry Now</h3>
-            <form id="contactForm">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <label for="name" class="required">Name</label>
-                  <input type="text" id="name" name="from_name" class="form-control" required>
+        <div class="row">
+            <!-- Contact Form with Card -->
+            <div class="col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card shadow p-4 flex-fill">
+                    <h3 class="mb-4 text-center">Send Inquiry Now</h3>
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="name" class="required">Name</label>
+                                <input type="text" id="name" name="from_name" class="form-control" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="phone" class="required">Phone</label>
+                                <input type="text" id="phone" name="phone" class="form-control" required pattern="\d*">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="required">Email</label>
+                            <input type="email" id="email" name="from_email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Write Message</label>
+                            <textarea name="message" id="message" class="form-control" cols="30" rows="8"></textarea>
+                        </div>
+                        <div class="form-group text-right">
+                            <button type="submit" class="btn btn-danger px-4 py-2" id="submitBtn" disabled>Send Message</button>
+                        </div>
+                    </form>
+                    <div id="alert-success" class="alert alert-success" style="display:none;">Pesan Berhasil Masuk Dalam Antrean, Mohon Tunggu Beberapa Waktu Team Kami Akan Menghubungi Kembali!</div>
+                    <div id="alert-danger" class="alert alert-danger" style="display:none;">Pengiriman Pesan Gagal. Tolong Coba Beberapa Saat Lagi.</div>
                 </div>
-                <div class="col-md-6 form-group">
-                  <label for="phone" class="required">Phone</label>
-                  <input type="text" id="phone" name="phone" class="form-control" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email" class="required">Email</label>
-                <input type="email" id="email" name="from_email" class="form-control" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Write Message</label>
-                <textarea name="message" id="message" class="form-control" cols="30" rows="8"></textarea>
-              </div>
-              <button type="submit" class="btn btn-danger px-4 py-2" id="submitBtn" disabled>Send Message</button>
-            </form>
-            <div id="alert-success" class="alert alert-success" style="display:none;">Message sent successfully!</div>
-            <div id="alert-danger" class="alert alert-danger" style="display:none;">Message could not be sent.</div>
-          </div>
-        </div>
+            </div>
 
-        <!-- Map without Card -->
-        <div class="col-md-6 mb-5 d-flex align-items-stretch">
-          <div class="map-container">
-            <iframe
-              width="100%"
-              height="600"
-              referrerpolicy="no-referrer-when-downgrade"
-              frameborder="0"
-              style="border:0; border-radius: 8px;"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.917072766205!2d106.89604637365792!3d-6.141841360206617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5467feec437%3A0x303ac0c6d8046341!2sPT.%20BIOSEPTIC%20WATERINDO%20ABADI!5e0!3m2!1sid!2sid!4v1722224076343!5m2!1sid!2sid"
-              allowfullscreen>
-            </iframe>
-          </div>
+            <!-- Map without Card -->
+            <div class="col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="map-container">
+                    <iframe
+                        width="100%"
+                        height="600"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        frameborder="0"
+                        style="border:0; border-radius: 8px;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.917072766205!2d106.89604637365792!3d-6.141841360206617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5467feec437%3A0x303ac0c6d8046341!2sPT.%20BIOSEPTIC%20WATERINDO%20ABADI!5e0!3m2!1sid!2sid!4v1722224076343!5m2!1sid!2sid"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
 <footer class="site-footer bg-fixed" role="contentinfo">
       <div class="container">
@@ -209,10 +176,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <div class="col-md-3 mb-5">
             <h3>Quick Links</h3>
             <ul class="list-unstyled footer-link">
-              <li><a href="#">About</a></li>
+              <li><a href="about.php">About</a></li>
               <li><a href="projects.php#product-video">Video Product</a></li>
               <li><a href="#">Product</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
           <div class="col-md-3">

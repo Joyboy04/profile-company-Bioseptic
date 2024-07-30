@@ -77,8 +77,7 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
-              <h1 class="pt-5"><span>Tentang Kami</span></h1>
-              <p class="mb-5 w-75">PT Bioseptic Waterindo Abadi (Bio) menyediakan layanan EPC, O&M, peralatan pengolahan air dan limbah, serta sensor cuaca dan lingkungan. Kami mematuhi standar ISO dan didukung teknologi Nordic Water Swedia.</p>
+              <p class="mb-5 w-75">Bio Sensor by Bioseptic Waterindo Abadi</p>
             </div>
           </div>
         </div>
@@ -86,99 +85,122 @@
     </div>
     <!-- END slider -->
 
+    <section class="section bg-light">
+    <div class="container mt-5">
+        <div class="row justify-content-center mb-5 element-animate">
+            <div class="col-md-8 text-center">
+                <h2 class="heading mb-5">Sertifikasi Bioseptic Waterindo Abadi</h2>
+                <p class="mb-3 lead">Komitmen Bioseptic Waterindo Abadi untuk Negeri menghadirkan Layanan Solutif yang telah tersertifikasi</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1U9bbZZ3JN_F1-LZOjFT3vRcI4uCXapgj/view?usp=sharing')">
+                <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="WEF">
+                <h5>WEF Member</h5>
+                <p class="text-center">Water Enviroment Federation Member</p>
+            </div>
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iEGV6NNkmQ4lnOjS9KmKShkQOD9ytuBo/view?usp=sharing')">
+                <img src="images/sertifikasi/ISO9001.svg" class="certificate-img" alt="ISO">
+                <h5>ISO 9001</h5>
+                <p class="text-center">Quality Management System</p>
+            </div>
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iEGV6NNkmQ4lnOjS9KmKShkQOD9ytuBo/view?usp=sharing')">
+                <img src="images/sertifikasi/ISO14001.svg" class="certificate-img" alt="ISO">
+                <h5>ISO 14001</h5>
+                <p class="text-center">Environmental Management System</p>
+            </div>
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iEGV6NNkmQ4lnOjS9KmKShkQOD9ytuBo/view?usp=sharing')">
+                <img src="images/sertifikasi/ISO45001.svg" class="certificate-img" alt="ISO">
+                <h5>ISO 45001</h5>
+                <p class="text-center">Occupational Health and Safety Management System</p>
+            </div>
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1az8UhYwlN20c3QFjFcWI-5ThWU7ig4ui/view?usp=sharing')">
+                <img src="images/sertifikasi/Merek.jpg" class="certificate-img" alt="Sertifikat Merek">
+                <h5>Sertifikat Kementrian Hukum dan Ham</h5>
+                <p class="text-center">Hak Merek Sertifikat</p>
+            </div>
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1t_VHfnug2-JOfSgMcxvbRZjDl4hTKTx-/view?usp=sharing')">
+                <img src="images/sertifikasi/TKDN.png" class="certificate-img" alt="Sertifikat TKDN">
+                <h5>Sertifikat Kementrian Perindustrian</h5>
+                <p class="text-center">Sertifikat Tanda Sah Capaian Tingkat Komponen Dalam Negeri</p>
+            </div>
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/17-iU9hw-bg5Tk0WKRgMDJig1OXQnQPaz/view?usp=sharing')">
+                <img src="images/sertifikasi/Litbang.png" class="certificate-img" alt="Sertifikat Litbang">
+                <h5>Sertifikat Kementrian Pekerjaan Umum</h5>
+                <p class="text-center">Sertifikat Inspeksi Teknis Instalasi Pengolahan Air (IPA)</p>
+            </div>
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1aYryMFzYBKfDIxKRxzPe8X5gkle52tMb/view?usp=sharing')">
+                <img src="images/sertifikasi/nordic.png" class="certificate-img" alt="Sertifikat Nordic">
+                <h5>Nordic Water Agreement</h5>
+                <p class="text-center">Surat Kerja Sama Dengan Nordic Water</p>
+            </div>
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1ghpoRxPVbJku5q-tzUaczKey_J0840VK/view?usp=sharing')">
+                <img src="images/sertifikasi/KLHK.png" class="certificate-img" alt="Sertifikat Uji Konektivitas">
+                <h5>Sertifikat Kementrian Lingkungan Hidup</h5>
+                <p class="text-center">Sertifikat Lulus Uji Dari Kementrian Lingkungan</p>
+            </div>
+            <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/10pSVA-HYbZcmafvZxLsZYIroZWhYXYs0/view?usp=sharing')">
+                <img src="images/sertifikasi/KAN.png" class="certificate-img" alt="Sertifikat Uji Validasi">
+                <h5>Sertifikat Komite Akreditasi Nasional</h5>
+                <p class="text-center">Sertifikat Hasil Lulus Uji Validasi</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <section>
       <section class="section">
         <div class="container">
           <div class="row mb-5">
             <div class="col-12 text-center">
-              <h2>Keunggulan Kami</h2>
-              <p>Tim penjualan profesional kami menyediakan produk berkualitas tinggi dan layanan purna jual yang memuaskan. Dengan lebih dari 10 tahun pengalaman industri dalam sensor cuaca, instrumen pemantauan cuaca, dan sensor pemantauan lingkungan, kami telah menjadi pemimpin di bidang ini. Sensor Bio telah diekspor ke lebih dari 50 negara dan wilayah, termasuk Vietnam, AS, Jerman, Italia, Spanyol, Denmark, Korea Selatan, India, dan lain-lain.</p>
+              <h2>Bio Sensor</h2>
+              <p>BIO SENSOR hadir sebagai bentuk jawaban atas permasalahan-permasalahan yang dihadapi oleh Mitra dan Klien kami. Sebagai perusahaan yang telah dipercaya dan diandalkan di Indonesia, PT. Bioseptic Waterindo Abadi berkomitmen untuk menghadirkan solusi terbaik, terefisien dan terefektif.</p>
             </div>
           </div>
 
       <div class="half d-lg-flex d-block">
         <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Experience.jpg')"></div>
         <div class="text text-left element-animate">
-          <h3 class="mb-4">Experience</h3>
-          <p class="mb-5">Tim teknis BIO Sensor berpengalaman luas. Saat ini, kami telah bekerja di bidang pemantauan kualitas udara, pengolahan air, akuakultur, dan lainnya, serta menyediakan solusi meteorologi dan pemantauan lingkungan yang unggul.</p>
+          <p class="mb-5">BIO SENSOR adalah produk andalan yang diluncurkan PT. Bioseptic Waterindo Abadi sebagai solusi dan siap untuk mengatasi permasalahan menggunakan teknologi terdepan yang canggih dan modern. </p>
         </div>
       </div>
 
       <div class="half d-lg-flex d-block">
-        <div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Process.jpg')"></div>
+        <div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/IOT.webp')"></div>
         <div class="text text-left element-animate">
-          <h3 class="mb-4">Process</h3>
-          <p class="mb-5">BIO Sensor memiliki lini produksi berstandar Jerman, manajemen produksi yang ketat, serta inspeksi dan pengendalian berlapis. Semangat kerja yang mengedepankan keunggulan menjamin kualitas produk yang luar biasa.</p> 
+          <p class="mb-5">Tanpa membatasi lingkup parameter dari spesialisasi kami, Bio Sensor by Bioseptic Waterindo Abadi adalah Industrial Internet of Things (IoT) dan Produk Sensori yang solutif untuk Oil & Gas, Water, Air, dan Soil.</p> 
         </div>
       </div>
 
       <div class="half d-lg-flex d-block">
         <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/professional.jpg')"></div>
         <div class="text text-left element-animate">
-          <h3 class="mb-4">Professional</h3>
-          <p class="mb-5">BIO menerapkan standar pengembangan seperti ISO9001 dan standar CE-EMC secara ketat, serta menguji sensor dan stasiun cuaca sesuai dengan standar WMO.</p>
+          <h3 class="mb-4">Visi</h3>
+          <p class="mb-5">Menjadi Perusahaan EPC dan O&M Terkemuka di Indonesia Dalam Pengelolaan Air Bersih dan Air Limbah.</p>
         </div>
       </div>
 
       <div class="half d-lg-flex d-block">
         <div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Service.jpg')"></div>
         <div class="text text-left element-animate">
-          <h3 class="mb-4">Service</h3>
-          <p class="mb-5">BIO Sensor menyediakan layanan luar biasa untuk sensor OEM, mulai dari analisis kebutuhan dan desain pengembangan, hingga kalibrasi, produksi, dan pengiriman. Kami berkomitmen untuk memenuhi kebutuhan Anda dalam batas yang wajar dan memberikan solusi profesional untuk pemantauan lingkungan serta meteorologi.</p> 
+          <h3 class="mb-4">Misi</h3>
+          <p class="mb-5">Fokus Dalam EPC dan O&M Pengelolaan Air Bersih dan Air Limbah serta Memberikan Solusi yang Kompeten, Inovatif dan Ramah Lingkungan.</p> 
+        </div>
+      </div>
+
+      <div class="half d-lg-flex d-block">
+        <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/Kerja.jpg')"></div>
+        <div class="text text-left element-animate">
+          <h3 class="mb-4">Budaya</h3>
+          <p class="mb-5">Integritas, Profesional, Excellence.</p> 
         </div>
       </div>
 
     </section>
-
-    <section class="section bg-light">
-    <div class="container mt-5">
-  <h2 class="text-center mb-5">Sertifikasi</h2>
-  <p class="text-center mb-3">Sebagai produsen profesional sensor cuaca dan sensor lingkungan, BIO Sensor memiliki banyak sertifikat untuk standar tinggi.</p>
-  
-  <div class="scrolling-wrapper animated" id="scrolling-wrapper">
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1U9bbZZ3JN_F1-LZOjFT3vRcI4uCXapgj/view?usp=sharing')">
-    <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="WEF">
-    <p class="certificate-text text-center">WEF Member</p>
-  </div>
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iEGV6NNkmQ4lnOjS9KmKShkQOD9ytuBo/view?usp=sharing')">
-    <img src="images/sertifikasi/ISO.jpg" class="certificate-img" alt="ISO">
-    <p class="certificate-text text-center">ISO 9001,14001,45001</p>
-  </div>
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1az8UhYwlN20c3QFjFcWI-5ThWU7ig4ui/view?usp=sharing')">
-    <img src="images/sertifikasi/Merek.jpg" class="certificate-img" alt="Sertifikat Merek">
-    <p class="certificate-text text-center">Hak Merek Sertifikat</p>
-  </div>
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1t_VHfnug2-JOfSgMcxvbRZjDl4hTKTx-/view?usp=sharing')">
-    <img src="images/sertifikasi/tkdn.jpg" class="certificate-img" alt="Sertifikat TKDN">
-    <p class="certificate-text text-center">Sertifikat TKDN</p>
-  </div>
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/17-iU9hw-bg5Tk0WKRgMDJig1OXQnQPaz/view?usp=sharing')">
-    <img src="images/sertifikasi/SERTIFIKAT-LITBANG1.jpg" class="certificate-img" alt="Sertifikat Litbang">
-    <p class="certificate-text text-center">Sertifikas Litbang</p>
-  </div>
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1aYryMFzYBKfDIxKRxzPe8X5gkle52tMb/view?usp=sharing')">
-    <img src="images/sertifikasi/nordic-water.jpg" class="certificate-img" alt="Sertifikat Nordic">
-    <p class="certificate-text text-center">Nordic Water Agreement</p>
-  </div>
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/1ghpoRxPVbJku5q-tzUaczKey_J0840VK/view?usp=sharing')">
-    <img src="images/sertifikasi/sertifikat-uji.jpg" class="certificate-img" alt="Sertifikat Uji Konektivitas">
-    <p class="certificate-text text-center">Serifikat Uji Konektivitas</p>
-  </div>
-  <div class="certificate" onclick="openFullscreen('https://drive.google.com/file/d/10pSVA-HYbZcmafvZxLsZYIroZWhYXYs0/view?usp=sharing')">
-    <img src="images/sertifikasi/sertifikat-validasi.jpg" class="certificate-img" alt="Sertifikat Uji Validasi">
-    <p class="certificate-text text-center">Sertifikat Uji Validasi</p>
-  </div>
-
-    <div id="fullscreenModal" class="fullscreen-modal" onclick="closeFullscreen()"
-    </div>
-    
-</div>
-    </section>
     <!-- END section -->
 
-    
-    
+  
     <section class="section">
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
@@ -219,6 +241,62 @@
     </section>
     <!-- END section -->
 
+    <section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <!-- Contact Form with Card -->
+            <div class="col-12">
+                <h2 class="heading mb-5 text-center">Contact Us</h2>
+            </div>
+            <div class="col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card shadow p-4 flex-fill">
+                    <h3 class="mb-4 text-center">Send Inquiry Now</h3>
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="name" class="required">Name</label>
+                                <input type="text" id="name" name="from_name" class="form-control" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="phone" class="required">Phone</label>
+                                <input type="text" id="phone" name="phone" class="form-control" required pattern="\d*">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="required">Email</label>
+                            <input type="email" id="email" name="from_email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Write Message</label>
+                            <textarea name="message" id="message" class="form-control" cols="30" rows="8"></textarea>
+                        </div>
+                        <div class="form-group text-right">
+                            <button type="submit" class="btn btn-danger px-4 py-2" id="submitBtn" disabled>Send Message</button>
+                        </div>
+                    </form>
+                    <div id="alert-success" class="alert alert-success" style="display:none;">Pesan Berhasil Masuk Dalam Antrean, Mohon Tunggu Beberapa Waktu Team Kami Akan Menghubungi Kembali!</div>
+                    <div id="alert-danger" class="alert alert-danger" style="display:none;">Pengiriman Pesan Gagal. Tolong Coba Beberapa Saat Lagi.</div>
+                </div>
+            </div>
+
+            <!-- Map without Card -->
+            <div class="col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="map-container">
+                    <iframe
+                        width="100%"
+                        height="600"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        frameborder="0"
+                        style="border:0; border-radius: 8px;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.917072766205!2d106.89604637365792!3d-6.141841360206617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5467feec437%3A0x303ac0c6d8046341!2sPT.%20BIOSEPTIC%20WATERINDO%20ABADI!5e0!3m2!1sid!2sid!4v1722224076343!5m2!1sid!2sid"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
     <footer class="site-footer bg-fixed" role="contentinfo">
       <div class="container">
         <div class="row mb-5">
@@ -257,10 +335,10 @@
           <div class="col-md-3 mb-5">
             <h3>Quick Links</h3>
             <ul class="list-unstyled footer-link">
-              <li><a href="#">About</a></li>
+              <li><a href="about.php">About</a></li>
               <li><a href="projects.php#product-video">Video Product</a></li>
               <li><a href="#">Product</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
           <div class="col-md-3">
@@ -288,8 +366,10 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/mail.js"></script>
+  
   
   </body>
 </html>

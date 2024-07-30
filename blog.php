@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>PT Bioseptic Waterindo Abadi</title>
+    <title>PT Bioseptic Waterindo Abadi | Blog</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -167,7 +167,7 @@
               <li><a href="about.php">About</a></li>
               <li><a href="projects.php#product-video">Video Product</a></li>
               <li><a href="#">Product</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
         </div>
