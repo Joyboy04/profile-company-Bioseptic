@@ -49,7 +49,7 @@
                 <a class="nav-link" href="projects.php">Projects</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <a class="nav-link dropdown-toggle" href="product.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
                   <a class="dropdown-item" href="services.html">Architectural Design</a>
                   <a class="dropdown-item" href="services.html">Interior</a>
@@ -72,96 +72,117 @@
     <div class="top-shadow"></div>
 
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('images/hero-1.png');">
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-lg-7 text-center col-sm-12 element-animate">
-              <p class="mb-5 w-75">Bioseptic Waterindo Abadi adalah produsen sensor cuaca dan lingkungan dengan lebih dari 10 tahun pengalaman. Kami menyediakan produk berkualitas dan layanan EPC serta O&M untuk kebutuhan pemantauan.</p>
-            </div>
-          </div>
+  <div class="slider-item" style="background-image: url('images/1.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-7 text-center col-sm-12 element-animate">
+          <!-- Removed <p> tag here -->
         </div>
       </div>
-
-      <div class="slider-item" style="background-image: url('images/hero-2.png');">
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-lg-7 text-center col-sm-12 element-animate">
-              <p class="mb-5 w-75">Bioseptic Waterindo Abadi adalah produsen sensor cuaca dan lingkungan dengan lebih dari 10 tahun pengalaman. Kami menyediakan produk berkualitas dan layanan EPC serta O&M untuk kebutuhan pemantauan.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="slider-item" style="background-image: url('images/hero-3.png');">
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-lg-7 text-center col-sm-12 element-animate">
-              <p class="mb-5 w-75">Bioseptic Waterindo Abadi adalah produsen sensor cuaca dan lingkungan dengan lebih dari 10 tahun pengalaman. Kami menyediakan produk berkualitas dan layanan EPC serta O&M untuk kebutuhan pemantauan.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-    <!-- END slider -->
     </div>
+  </div>
+
+  <div class="slider-item" style="background-image: url('images/2.png');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-7 text-center col-sm-12 element-animate">
+          <!-- Removed <p> tag here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-item" style="background-image: url('images/3.png');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-7 text-center col-sm-12 element-animate">
+          <!-- Removed <p> tag here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-item" style="background-image: url('images/4.png');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-7 text-center col-sm-12 element-animate">
+          <!-- Removed <p> tag here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-item" style="background-image: url('images/5.png');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-7 text-center col-sm-12 element-animate">
+          <!-- Removed <p> tag here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- END slider -->
+
     
 
     <section class="section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2>Solusi Kita</h2>
-          </div>
-        </div>
-        <div class="row align-items-stretch">
-          <div class="col-lg-4 order-lg-2">
-            <div class="scaling-image h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('images/weather sensor.jpg');"></div></div></div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-easel display-4 text-danger"></span>
-                <h3>proffesional</h3>
-                <p>BIO menerapkan standar pengembangan seperti ISO9001 dan standar CE-EMC secara ketat, serta menguji sensor dan stasiun cuaca sesuai dengan standar WMO.</p>
-              </div>
-            </div>
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-hammer display-4 text-danger"></span>
-                <h3>Prosses</h3>
-                <p>kita menggunakan jalur produksi standar Jerman, manajemen produksi yang ketat, serta pemeriksaan dan kontrol berlapis-lapis. Semangat keahlian yang luar biasa menjamin kualitas produk yang unggul.</p>
-              </div>
-            </div>
-
-          </div>
-          
-          <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3" >
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-cube display-4 text-danger"></span>
-                <h3>Penelitian & Pengembangan</h3>
-                <p> Kita memiliki kekuatan riset dan pengembangan yang kuat, serta fondasi yang kokoh dalam desain perangkat lunak dan pengembangan perangkat keras. Ini memastikan siklus pengembangan produk kustom singkat dan kinerja secara keseluruhan sangat baik.</p>
-              </div>
-            </div>
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-clipboard display-4 text-danger"></span>
-                <h3>Pengalaman</h3>
-                <p>Saat ini, kami fokus pada pembangkit listrik tenaga surya, pemantauan kualitas udara, pengolahan air, akuakultur, dan bidang lainnya. Kami menyediakan solusi unggulan dalam meteorologi dan pemantauan lingkungan.</p>
-              </div>
-            </div>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2>Solusi Kita</h2>
+      </div>
+    </div>
+    <div class="row align-items-stretch">
+      <div class="col-lg-4 order-lg-2">
+        <div class="scaling-image h-100">
+          <div class="frame h-100">
+            <div class="feature-img-bg h-100" style="background-image: url('images/weather sensor.jpg');"></div>
           </div>
         </div>
       </div>
-    </section>
 
+      <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1">
 
+        <div class="feature-1 d-md-flex">
+          <div class="align-self-center">
+            <img src="images/berjabat-tangan.jpg" alt="Professional" class="feature-icon">
+            <h3>Profesional</h3>
+            <p style="text-align: justify">Service yang diberikan Biosensor telah berstandard ISO, 19001,45100,14001. Pengalaman kami pada bidang pengolahan WTP dan WWTP telah berjalan selama belasan tahun terhadap ratusan customer, inovasi yang kami tawarkan menjadi solusi dalam instrumen IOT terhadap kebutuhan sensor cuaca dan lingkungan serta paparan gas beracun, sesuai standard kementrian lingkungan hidup Indonesia.</p>
+          </div>
+        </div>
+
+        <div class="feature-1 d-md-flex">
+          <div class="align-self-center">
+            <img src="images/proses-mesin.png" alt="Process" class="feature-icon">
+            <h3>Prosses</h3>
+            <p style="text-align: justify">kita menggunakan jalur produksi standar Jerman, manajemen produksi yang ketat, serta pemeriksaan dan kontrol berlapis-lapis. Semangat keahlian yang luar biasa menjamin kualitas produk yang unggul.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3">
+
+        <div class="feature-1 d-md-flex">
+          <div class="align-self-center">
+            <img src="images/penelitian.png" alt="Research & Development" class="feature-icon">
+            <h3>Penelitian & Pengembangan</h3>
+            <p style="text-align: justify">Kita memiliki kekuatan riset dan pengembangan yang kuat, serta fondasi yang kokoh dalam desain perangkat lunak dan pengembangan perangkat keras. Ini memastikan siklus pengembangan produk kustom singkat dan kinerja secara keseluruhan sangat baik.</p>
+          </div>
+        </div>
+
+        <div class="feature-1 d-md-flex">
+          <div class="align-self-center">
+            <img src="images/pengalaman.jpg" alt="Experience" class="feature-icon">
+            <h3>Pengalaman</h3>
+            <p style="text-align: justify">Saat ini, kami fokus pada pembangkit listrik tenaga surya, pemantauan kualitas udara, pengolahan air, akuakultur, dan bidang lainnya. Kami menyediakan solusi unggulan dalam meteorologi dan pemantauan lingkungan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   <!-- END section -->
 
   <section class="section element-animate">
@@ -184,7 +205,7 @@
         <div class="block-41">
           <h3 class="block-41-heading mb-4">Pengolahan Air</h3>
           <div class="block-41-text">
-            <p>Kami menyediakan berbagai peralatan pengolahan air, baik yang merupakan inovasi internal maupun impor dari mitra internasional kami. Salah satu mitra utama kami, Nordic Water Swedia, mendukung kami dalam menyediakan teknologi terkini untuk pengolahan air.</p>
+            <p style="text-align: justify">Kami menyediakan berbagai peralatan pengolahan air, baik yang merupakan inovasi internal maupun impor dari mitra internasional kami. Salah satu mitra utama kami, Nordic Water Swedia, mendukung kami dalam menyediakan teknologi terkini untuk pengolahan air.</p>
             <p><a href="http://bioseptic.co.id/" target="_blank" class="readmore text-danger">Baca Selengkapnya <span class="ion-android-arrow-dropright-circle"></span></a></p>
           </div>
         </div>
@@ -204,7 +225,7 @@
         <div class="block-41">
           <h3 class="block-41-heading mb-4">Pemantauan Hidrologi</h3>
           <div class="block-41-text">
-            <p>Kami menyediakan solusi pemantauan hidrologi yang lengkap, termasuk peralatan inovatif dari pengembangan internal dan impor dari mitra internasional kami.</p>
+            <p style="text-align: justify">Kami menyediakan solusi pemantauan hidrologi yang lengkap, termasuk peralatan inovatif dari pengembangan internal dan impor dari mitra internasional kami.</p>
             <p><a href="#" class="readmore text-danger">Baca Selengkapnya <span class="ion-android-arrow-dropright-circle"></span></a></p>
           </div>
         </div>
@@ -214,19 +235,20 @@
 </section>
 
 <section class="section bg-danger">
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-8 element-animate text-center">
-            <div class="media block-6 d-block">
-              <div class="media-body">
-                <h1 class="heading text-white">Hubungi Kami untuk Penawaran Gratis Sekarang!</h1>
-                <a href="./contact.html" class="custom-button">Contact us now</a>
-              </div>
-            </div> 
+  <div class="container">
+    <div class="row justify-content-center align-items-center min-vh-100">
+      <div class="col-md-8 element-animate text-center">
+        <div class="media block-6 d-block">
+          <div class="media-body">
+            <h1 class="heading text-white">Hubungi Kami untuk Penawaran Gratis Sekarang!</h1>
+            <a href="./contact.html" class="custom-button">Contact us now</a>
           </div>
-        </div>
+        </div> 
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
 
     <section class="section border-t pb-0">
     <div class="container">
@@ -278,7 +300,7 @@
 </section>
 
 
-    <section class="section blog">
+    <!-- <section class="section blog">
     <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-8 text-center">
@@ -318,7 +340,100 @@
             ?>
         </div>
     </div>
+</section> -->
+
+<section class="faq-section py-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="heading mb-4">Kami di sini untuk menjawab semua pertanyaan Anda</h2>
+        <p class="lead">Jika Anda baru mengenal Biosensor atau ingin meningkatkan sistem Anda saat ini, bagian ini akan membantu Anda memahami lebih dalam tentang Biosensors fitur-fiturnya.</p>
+      </div>
+    </div>
+    <div class="accordion" id="faqAccordion">
+      <div class="card mb-3">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Apa itu Bioensor?
+              <span class="ml-auto">+</span>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
+          <div class="card-body">
+          Biosensor hadir sebagai solusi atas permasalahan-permasalan maupun kebutuhan terkait pemantuan lingkungan yang mengalami pencemaran. Dilengkapi dengan konsep design yang efektif, realtime dalam pengiriman data dan canggih, Bio Sensor mampu memberikan berbagai service dalam satu sistem yang lebih cepat dan efisien.
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Apa saja layanan Biosensor?
+              <span class="ml-auto">+</span>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+          <div class="card-body">
+          Biosensor memiliki produk-produk unggul dalam pengaplikasian terhadap lingkungan. Sensor kualitas air bersih/air sungai, Sensor udara, Sensor gas detector berbahaya dan beracun.
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Apa keunggulan Bio Sensor?
+              <span class="ml-auto">+</span>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+          <div class="card-body">
+          Biosensor menawarkan sistem pengendali IoT yang sepenuhnya terhubung melalui internet, dengan desain kompak dan sistem kalibrasi terpadu yang memenuhi standarisasi laboratorium sertifikasi KAN. Sistem informasi kami dapat diakses secara real-time dan memiliki kemudahan dalam pengoperasiannya. Setiap sensor dilengkapi dengan informasi HMI yang lengkap, termasuk titik koordinat dan kemampuan untuk mengunduh laporan secara otomatis dalam satu kali unduhan. Sistem HMI kami menggunakan Windows 10 dengan prosesor Intel. Selain itu, kami juga menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain Biosensor.
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+            Apa jaminan yang didapatkan Customer Bio Sensor?
+              <span class="ml-auto">+</span>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+          <div class="card-body">
+          Biosensor memiliki workshop sendiri yang dilengkapi dengan sertifikasi ISO untuk menjamin kualitas pekerjaan. Kami juga menyediakan jaminan ketersediaan suku cadang hingga 5 tahun ke depan. Layanan kami dikenal baik, komunikatif, dan cepat dalam responsnya. Selain itu, kami menawarkan layanan tambahan VSAT untuk memastikan pengiriman data ke pelanggan terjamin dengan baik.
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+            Apa yang perlu dimengerti dari layanan Bio Sensor?
+              <span class="ml-auto">+</span>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
+          <div class="card-body">
+          Operasional sistem kami dirancang agar mudah dan efisien. Dengan sistem IoT yang canggih, kami menyajikan informasi melalui HMI secara informatif dan mudah dipahami. Sebagian dari daya operasional kami menggunakan sistem PLTS (Pembangkit Listrik Tenaga Surya), sehingga pasokan daya menjadi lebih efisien. Kami juga menyediakan layanan purna jual selama masa garansi produk. Selain itu, kami menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain BIOSENSOR.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5">
+      <p>Got any more questions?</p>
+      <a href="contact.php" class="btn btn-primary">Get in touch</a>
+    </div>
+  </div>
 </section>
+
 
 
 <footer class="site-footer bg-fixed" role="contentinfo">

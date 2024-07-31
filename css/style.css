@@ -450,8 +450,9 @@ pre {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0;
+  padding-left: 0;
+  overflow: hidden; 
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
@@ -8208,7 +8209,6 @@ header {
 
 .feature-1 {
   padding: 30px;
-  background: #f8f9fa;
   min-height: calc(50% - 15px);
   top: 0;
   margin-bottom: 30px !important; }
@@ -8329,10 +8329,6 @@ header {
   display: block; /* Ensures it starts on a new line */
 }
 
-.section.bg-danger {
-  max-width: 100%; /* Adjust the maximum width of the container */
-}
-
 .custom-button {
   background-color: white;
   font-weight: bold;
@@ -8437,9 +8433,207 @@ header {
   color: #721c24;
 }
 
+/* List Group */
+.list-group-item-action {
+  transition: background-color 0.3s, color 0.3s;
+}
 
+.list-group-item-action:hover {
+  background-color: #007bff;
+  color: #fff;
+}
 
+/* Section Titles */
+.section-title {
+  font-size: 1.75rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
 
+/* Cards */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card Body */
+.card-body {
+  padding: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.banner-image {
+  margin-bottom: 30px; /* Space between the banner and the cards */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1;
+  margin: 0 10px; /* Add horizontal spacing between cards */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensures cards stretch to fill the height of the container */
+}
+
+.card-body {
+  flex: 1; /* Ensures the content area of the card takes up remaining space */
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+  }
+
+  .col-lg-4 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Ensure all cards stretch to the same height */
+  }
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.sliding-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+  width: calc(210px * 12); /* Number of images times the width of each card including margin */
+}
+
+.sliding-track .card {
+  flex: 0 0 180px;
+  margin: 0 15px;
+  border: none;
+  background: none;
+}
+
+.sliding-track .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-210px * 6)); } /* Half the number of images times the width of each card including margin */
+}
+
+.faq-section {
+  background-color: #f9f9f9;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.card-header {
+  background-color: #fff;
+  border: none;
+}
+
+.card-body {
+  border-top: 1px solid #ddd;
+}
+
+.btn-link {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.btn-primary {
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+.btn-primary:hover {
+  background-color: #574bd6;
+  border-color: #574bd6;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 1.125rem;
+  color: #6c757d;
+}
+
+.feature-1 {
+  display: flex;
+  align-items: flex-start; /* Aligns image and text at the top */
+  margin-bottom: 1.5rem; /* Space between feature sections */
+}
+
+.feature-icon-container {
+  flex-shrink: 0; /* Prevents image from shrinking */
+  margin-right: 1.5rem; /* Space between image and text */
+}
+
+.feature-icon {
+  width: 6.5rem; /* Adjust width as needed */
+  height: 6.5rem; /* Adjust height as needed */
+  object-fit: contain; /* Ensures image maintains aspect ratio */
+}
+
+.feature-text {
+  max-width: calc(100% - 5rem); /* Adjust width of text container */
+}
+
+@media (max-width: 767.98px) {
+  .feature-1 {
+    flex-direction: column; /* Stack image and text on smaller screens */
+    align-items: center;
+  }
+
+  .feature-icon-container {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
 
 
 
