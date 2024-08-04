@@ -145,7 +145,7 @@
               <li class="d-block">
                 <span class="d-block">Production Office Location:</span>
                 <div class="address-group">
-                  <span>Ruko Batavia Blok LC9/29, Kelapa Gading, Jakarta Utara</span>
+                  <span>Rukan, Jl. Raya Gading Batavia No.29 Blok LC 9, RT.10/RW.7, Klp. Gading Bar., Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14240</span>
                   <br>
                   <span class="d-block address-separator">Main Office Location:</span>
                   <span>Jl. Gading Kirana Utara No.8 Blok F10, RT.11/RW.8, West Kelapa Gading, Kelapa Gading, North Jakarta City, Jakarta 14240</span>

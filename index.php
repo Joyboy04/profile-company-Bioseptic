@@ -29,7 +29,7 @@
           <a class="navbar-brand" href="index.php">
             <img src="./images/logo_bio_baru(1).png" alt="Bio Logo" class="logo">
             <div class="brand-text">
-              <strong class="brand-title">WEATHER SENSORS & ENVIRONMENTAL SENSORS</strong><br>
+              <strong class="brand-title">BIOSENSOR by</strong><br>
               <span class="brand-subtitle">BIOSEPTIC WATERINDO ABADI</span>
             </div>
           </a>
@@ -51,14 +51,14 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="product.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Architectural Design</a>
-                  <a class="dropdown-item" href="services.html">Interior</a>
-                  <a class="dropdown-item" href="services.html">Building</a>
+                <a class="dropdown-item" href="wqms.php">WQMS</a>
+                <a class="dropdown-item" href="aqms.php">AQMS</a>
+                <a class="dropdown-item" href="gas-sensor.php">AGMS</a>
                 </div>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="blog.php">Blog</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="contact.php">Contact</a>
               </li>
@@ -148,7 +148,7 @@
           <div class="align-self-center">
             <img src="images/berjabat-tangan.jpg" alt="Professional" class="feature-icon">
             <h3>Profesional</h3>
-            <p style="text-align: justify">Service yang diberikan Biosensor telah berstandard ISO, 19001,45100,14001. Pengalaman kami pada bidang pengolahan WTP dan WWTP telah berjalan selama belasan tahun terhadap ratusan customer, inovasi yang kami tawarkan menjadi solusi dalam instrumen IOT terhadap kebutuhan sensor cuaca dan lingkungan serta paparan gas beracun, sesuai standard kementrian lingkungan hidup Indonesia.</p>
+            <p style="text-align: justify">Service yang diberikan Biosensor telah berstandard ISO 9001,45001,14001. Pengalaman kami pada bidang pengolahan WTP dan WWTP telah berjalan selama belasan tahun terhadap ratusan customer, inovasi yang kami tawarkan menjadi solusi dalam instrumen IOT terhadap kebutuhan sensor cuaca dan lingkungan serta paparan gas beracun, sesuai standard kementrian lingkungan hidup Indonesia.</p>
           </div>
         </div>
 
@@ -176,7 +176,7 @@
           <div class="align-self-center">
             <img src="images/pengalaman.jpg" alt="Experience" class="feature-icon">
             <h3>Pengalaman</h3>
-            <p style="text-align: justify">Saat ini, kami fokus pada pembangkit listrik tenaga surya, pemantauan kualitas udara, pengolahan air, akuakultur, dan bidang lainnya. Kami menyediakan solusi unggulan dalam meteorologi dan pemantauan lingkungan.</p>
+            <p style="text-align: justify">Kami menawarkan layanan yang sudah terstandarisasi laboratorium bersertifikat KAN sesuai dengan ketentuan PerMenLHK No. P.93/MENLHK/SETJEN/KUM.1/8/2018 dan PerMenLHK No. P.80/MENLHK/SETJEN/KUM.1/8/2019.</p>
           </div>
         </div>
       </div>
@@ -217,15 +217,15 @@
       <div class="col-lg-7 order-lg-2">
         <div class="scaling-image">
           <div class="frame">
-            <img src="images/monitor.jpg" alt="Pemantauan Hidrologi" class="img-fluid">
+            <img src="images/biosensor.jpg" alt="Pemantauan Hidrologi" class="img-fluid">
           </div>
         </div>
       </div>
       <div class="col-md-5 pr-md-5">
         <div class="block-41">
-          <h3 class="block-41-heading mb-4">Pemantauan Hidrologi</h3>
+          <h3 class="block-41-heading mb-4">Online Monitoring</h3>
           <div class="block-41-text">
-            <p style="text-align: justify">Kami menyediakan solusi pemantauan hidrologi yang lengkap, termasuk peralatan inovatif dari pengembangan internal dan impor dari mitra internasional kami.</p>
+            <p style="text-align: justify">kami menyediakan solusi untuk mengatasi masalah pecemaran lingkungan, cuaca serta gas berbahaya beracun dengan IOT system. Monitoring secara realtime dan online mampu mendeteksi masalah sejak dini, sehingga dapat diatasi dengan cepat, tepat dan efisien</p>
             <p><a href="#" class="readmore text-danger">Baca Selengkapnya <span class="ion-android-arrow-dropright-circle"></span></a></p>
           </div>
         </div>
@@ -281,7 +281,7 @@
                     while ($row = $result->fetch_assoc()) {
                         $short_description = substr($row["description"], 0, 100) . (strlen($row["description"]) > 100 ? '...' : '');
                         echo '<div class="col-md-4 element-animate">';
-                        echo '<a href="product-details.php?id=' . htmlspecialchars($row["id"]) . '" class="link-thumbnail">';
+                        echo '<a href="product.php'. '" class="link-thumbnail">';
                         echo '<h3>' . htmlspecialchars($row["name"]) . '</h3>';
                         echo '<img src="' . htmlspecialchars($row["image_path"]) . '" alt="' . htmlspecialchars($row["name"]) . '" class="img-fluid">';
                         echo '</a>';
@@ -327,7 +327,7 @@
                     echo '<span class="post-meta">' . date("F jS, Y", strtotime($row["post_date"])) . '</span>';
                     echo '<h3 class="mt-2 text-danger"><a href="blog-single.php?id=' . htmlspecialchars($row["id"]) . '">' . htmlspecialchars($row["title"]) . '</a></h3>';
                     echo '<p>' . htmlspecialchars($row["excerpt"]) . '</p>';
-                    echo '<p><a href="blog-single.php?id=' . htmlspecialchars($row["id"]) . '" class="readmore text-danger">Baca Selengkapnya<span class="ion-android-arrow-dropright-circle"></span></a></p>';
+                    echo '<p><a href="blog-single.php?id=' . '" class="readmore text-danger">Baca Selengkapnya<span class="ion-android-arrow-dropright-circle"></span></a></p>';
                     echo '</div>';
                     echo '</div>';
                     echo '</div>';
@@ -355,7 +355,7 @@
         <div class="card-header" id="headingOne">
           <h5 class="mb-0">
             <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Apa itu Bioensor?
+            Apa itu BioSensor?
               <span class="ml-auto">+</span>
             </button>
           </h5>
@@ -385,14 +385,14 @@
         <div class="card-header" id="headingThree">
           <h5 class="mb-0">
             <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Apa keunggulan Bio Sensor?
+            Apa keunggulan BioSensor?
               <span class="ml-auto">+</span>
             </button>
           </h5>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
           <div class="card-body">
-          Biosensor menawarkan sistem pengendali IoT yang sepenuhnya terhubung melalui internet, dengan desain kompak dan sistem kalibrasi terpadu yang memenuhi standarisasi laboratorium sertifikasi KAN. Sistem informasi kami dapat diakses secara real-time dan memiliki kemudahan dalam pengoperasiannya. Setiap sensor dilengkapi dengan informasi HMI yang lengkap, termasuk titik koordinat dan kemampuan untuk mengunduh laporan secara otomatis dalam satu kali unduhan. Sistem HMI kami menggunakan Windows 10 dengan prosesor Intel. Selain itu, kami juga menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain Biosensor.
+          Biosensor menawarkan sistem pengendali IoT yang sepenuhnya terhubung melalui internet, dengan desain kompak dan sistem kalibrasi terpadu yang memenuhi standarisasi laboratorium sertifikasi KAN. Sistem informasi kami dapat diakses secara real-time. Sistem HMI kami menggunakan Windows 10 dengan prosesor Intel. Selain itu, kami juga menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain Biosensor.
           </div>
         </div>
       </div>
@@ -400,7 +400,7 @@
         <div class="card-header" id="headingFour">
           <h5 class="mb-0">
             <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-            Apa jaminan yang didapatkan Customer Bio Sensor?
+            Apa jaminan yang didapatkan Customer BioSensor?
               <span class="ml-auto">+</span>
             </button>
           </h5>
@@ -415,7 +415,7 @@
         <div class="card-header" id="headingFive">
           <h5 class="mb-0">
             <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-            Apa yang perlu dimengerti dari layanan Bio Sensor?
+            Apa yang perlu dimengerti dari layanan BioSensor?
               <span class="ml-auto">+</span>
             </button>
           </h5>
@@ -440,8 +440,8 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-4 mb-5">
-        <h3>About The Bioseptic Waterindo Abadi</h3>
-        <p class="mb-5">PT Bioseptic Waterindo Abadi (Bio) menyediakan layanan EPC, O&M, peralatan pengolahan air dan limbah, serta pelatihan untuk supervisor dan operator. Kami mematuhi standar ISO 9001, ISO 14001, dan ISO 18001, didukung teknologi dari Nordic Water Swedia, dan juga menawarkan sensor cuaca serta sensor lingkungan.</p>
+        <h3>About The Biosensor</h3>
+        <p class="mb-5" style="text-align: justify">BioSensor adalah inovasi dari PT. Bioseptic Waterindo Abadi, dirancang untuk menjawab tantangan yang dihadapi oleh mitra dan klien kami. Kami adalah perusahaan terpercaya di Indonesia yang berkomitmen untuk menyediakan solusi yang efisien dan efektif. Produk unggulan kami, BioSensor, mengintegrasikan teknologi terkini untuk menghadapi berbagai masalah. Dengan fokus pada Industrial Internet of Things (IoT), Bio Sensor menawarkan solusi sensor canggih untuk sektor Oil & Gas, Air, Air Limbah, dan Tanah. Kami bertekad untuk membawa teknologi modern dan solusi inovatif dalam setiap produk kami.</p>
         <ul class="list-unstyled footer-link d-flex footer-social">
           <li><a href="#" class="p-2"><span class="fa fa-twitter text-danger"></span></a></li>
           <li><a href="#" class="p-2"><span class="fa fa-facebook text-danger"></span></a></li>
@@ -455,7 +455,7 @@
           <li class="d-block">
             <span class="d-block">Production Office Location:</span>
             <div class="address-group">
-              <span>Ruko Batavia Blok LC9/29, Kelapa Gading, Jakarta Utara</span>
+              <span>Rukan, Jl. Raya Gading Batavia No.29 Blok LC 9, RT.10/RW.7, Klp. Gading Bar., Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14240</span>
               <br>
               <span class="d-block address-separator">Main Office Location:</span>
               <span>Jl. Gading Kirana Utara No.8 Blok F10, RT.11/RW.8, West Kelapa Gading, Kelapa Gading, North Jakarta City, Jakarta 14240</span>
@@ -475,8 +475,8 @@
         <h3>Quick Links</h3>
         <ul class="list-unstyled footer-link">
           <li><a href="about.php">About</a></li>
-          <li><a href="projects.php#product-video">Video Product</a></li>
-          <li><a href="#">Product</a></li>
+          <li><a href="projects.php">Project</a></li>
+          <li><a href="product.php">Product</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>

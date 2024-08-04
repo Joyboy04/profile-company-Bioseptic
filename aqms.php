@@ -70,7 +70,7 @@
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
               <h1 class="pt-5"><span>Product Kami</span></h1>
-              <p class="mb-5 w-75">Online Monitoring System</p>
+              <p class="mb-5 w-75">Air Quality Management System(AQMS)</p>
             </div>
           </div>
         </div>
@@ -83,85 +83,101 @@
       <div class="row">
         <div class="col-md-3">
           <div class="list-group">
-            <a href="product.php" class="list-group-item list-group-item-action active">Biosensor</a>
+            <a href="product.php" class="list-group-item list-group-item-action">Biosensor</a>
             <a href="wqms.php" class="list-group-item list-group-item-action">Water Quality Monitoring System(WQMS)</a>
-            <a href="aqms.php" class="list-group-item list-group-item-action">Air Quality Management System(AQMS)</a>
-            <a href="gas-sensor.php" class="list-group-item list-group-item-action">Automatic Gas Monitoring System(AGMS) </a>
+            <a href="aqms.php" class="list-group-item list-group-item-action active">Air Quality Management System(AQMS)</a>
+            <a href="gas-sensor.php" class="list-group-item list-group-item-action">Automatic Gas Monitoring System(AGMS)</a>
           </div>
         </div>
         <div class="col-md-9 mb-5"> <!-- Added mb-5 for spacing -->
-          <h2 class="section-title">Biosensor</h2>
-          <a href="images/product/biosensor/biosensor.jpg" data-fancybox="gallery">
-            <img src="images/product/biosensor/biosensor.jpg" alt="Water Treatment Diagram" class="img-fluid mb-4" style="width: 500px; height: 600px">
-          </a>
-          <p style="text-align: justify"><strong>Biosensor</strong> hadir sebagai bentuk jawaban atas permasalahan-permasalahan yang dihadapi oleh Mitra dan Klien kami. Sebagai perusahaan yang telah dipercaya dan diandalkan di Indonesia, PT. Bioseptic Waterindo Abadi berkomitmen untuk menghadirkan solusi terbaik, terefisien dan terefektif.</p>
-          <p style="text-align: justify"><strong>Biosensor</strong>  adalah produk andalan yang diluncurkan PT. Bioseptic Waterindo Abadi sebagai solusi dan siap untuk mengatasi permasalahan menggunakan teknologi terdepan yang canggih dan modern. </p>
-          <p style="text-align: justify">Tanpa membatasi lingkup parameter dari spesialisasi kami, Biosensor by Bioseptic Waterindo Abadi Memberi Solusi System Internet of Things (IoT) dan Produk Sensor yang solutif untuk Oil & Gas, Water, Air, dan Soil.</p>
-          <p style="text-align: justify">Ketika Membeli <strong>Product Biosensor</strong>, Apa yang akan anda dapatkan?</p>
+                <h2 class="section-title">Air Quality Management System (AQMS)</h2>
+                <a href="images/product/aqms/aqms.webp" data-fancybox="gallery">
+                    <img src="images/product/aqms/aqms.webp" alt="Air Quality Management System" class="img-fluid mb-4" style="width: 600px; height: 400px">
+                </a>
+                <p style="text-align: justify">Pemantauan udara ambien adalah penilaian sistematis jangka panjang terhadap tingkat polutan dengan mengukur jumlah dan jenis polutan tertentu di udara luar.</p>
+                <p style="text-align: justify">Pemantauan udara ambien merupakan bagian integral dari sistem manajemen kualitas udara yang efektif. Alasan untuk mengumpulkan data tersebut antara lain:</p>
+                <ul>
+                    <li>menilai sejauh mana polusi.</li>
+                    <li>menyediakan data polusi udara kepada masyarakat umum secara tepat waktu.</li>
+                    <li>mendukung pelaksanaan tujuan atau standar kualitas udara.</li>
+                    <li>mengevaluasi efektivitas strategi pengendalian emisi.</li>
+                    <li>memberikan informasi tentang tren kualitas udara.</li>
+                    <li>menyediakan data untuk evaluasi model kualitas udara.</li>
+                    <li>mendukung penelitian (misalnya, studi jangka panjang tentang efek kesehatan dari polusi udara).</li>
+                </ul>
+                <p style="text-align: justify">Sistem Pemantauan Kualitas Udara (AQMS) adalah fasilitas untuk mengukur kecepatan angin, arah, parameter cuaca lainnya, konsentrasi polutan udara (seperti PM2.5, SO2, NOx, CO, O3, THC, dll), dan partikel secara terus-menerus sepanjang tahun.</p>
+                <p style="text-align: justify">Ketika Membeli Product <Strong>AQMS Biosensor</Strong>, Apa yang akan anda dapatkan?</p>
 
-          <h3 class="section-title">Product</h3>
-          <div class="row justify-content-center">
-            <div class="col-md-4 d-flex">
-              <div class="product-card mb-4">
-                <img src="images/product/biosensor/mini-pc.png" class="product-card-img-top" alt="Mini Pc Windows">
-                <div class="product-card-body">
-                  <h5 class="product-card-title">Mini Pc Windows</h5>
-                  <p class="product-card-text">High performance mini PC with Windows OS for various applications.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex">
-              <div class="product-card mb-4">
-                <img src="images/product/biosensor/panel-surya.webp" class="product-card-img-top" alt="Panel Surya">
-                <div class="product-card-body">
-                  <h5 class="product-card-title">Panel Surya</h5>
-                  <p class="product-card-text">Efficient solar panels for sustainable energy solutions.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex">
-              <div class="product-card mb-4">
-                <img src="images/product/biosensor/sensor_system.png" class="product-card-img-top" alt="System Alarm Sensor">
-                <div class="product-card-body">
-                  <h5 class="product-card-title">System Alarm Sensor</h5>
-                  <p class="product-card-text">Advanced alarm system sensors for security applications.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row justify-content-center">
-            <div class="col-md-4 d-flex">
-              <div class="product-card mb-4">
-                <img src="images/product/biosensor/cctv.jpg" class="product-card-img-top" alt="CCTV">
-                <div class="product-card-body">
-                  <h5 class="product-card-title">CCTV</h5>
-                  <p class="product-card-text">High definition CCTV cameras for surveillance.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex">
-              <div class="product-card mb-4">
-                <img src="images/product/biosensor/vsat.jpg" class="product-card-img-top" alt="VSAT+Modem">
-                <div class="product-card-body">
-                  <h5 class="product-card-title">VSAT+Modem</h5>
-                  <p class="product-card-text">Reliable VSAT and modem for remote communication.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex">
-              <div class="product-card mb-4">
-                <img src="images/product/biosensor/videotron.jpg" class="product-card-img-top" alt="VSAT+Modem">
-                <div class="product-card-body">
-                  <h5 class="product-card-title">Videotron Live</h5>
-                  <p class="product-card-text">Videotron With Live Data</p>
-                </div>
-              </div>
+                <h3 class="section-title">Product</h3>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="product-card mb-4">
+            <img src="images/product/aqms/gas-sensor.png" class="product-card-img-top" alt="Liquid PH Sensor" />
+            <div class="product-card-body">
+              <h5 class="product-card-title">Multi-in-one Sensor</h5>
+              <p class="product-card-text">Multi-in-one (CO,SO2,PM2.5,pm.10) Gas Sensor</p>
             </div>
           </div>
         </div>
+        <div class="col-md-4">
+          <div class="product-card mb-4">
+            <img src="images/product/aqms/wind-final.png" class="product-card-img-top" alt="Panel Surya" />
+            <div class="product-card-body">
+              <h5 class="product-card-title">Wind Speed Sensor</h5>
+              <p class="product-card-text">Plastic Wind Speed Sensor Wind Anemometer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card mb-4">
+            <img src="images/product/aqms/vane-final.png" class="product-card-img-top" alt="System Alarm Sensor" />
+            <div class="product-card-body">
+              <h5 class="product-card-title">Wind Direction Sensor</h5>
+              <p class="product-card-text">Wind Direction Sensor Wind Vane Sensor</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card mb-4">
+            <img src="images/product/aqms/atmosperic-sensor.png" class="product-card-img-top" alt="CCTV" />
+            <div class="product-card-body">
+              <h5 class="product-card-title">Atmospheric Sensor</h5>
+              <p class="product-card-text">Atmospheric Temperature, Humidity & Pressure Sensor</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card mb-4">
+            <img src="images/product/aqms/pyranometer-final.png" class="product-card-img-top" alt="VSAT+Modem" />
+            <div class="product-card-body">
+              <h5 class="product-card-title">Solar Pyranometer Sensor</h5>
+              <p class="product-card-text">Solar Pyranometer Radiation Sensor</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card mb-4">
+            <img src="images/product/aqms/noise-final.png" class="product-card-img-top" alt="VSAT+Modem" />
+            <div class="product-card-body">
+              <h5 class="product-card-title">Noise Sensor</h5>
+              <p class="product-card-text">Noise Sensor Noise Level Sensor</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card mb-4">
+            <img src="images/product/aqms/metal-final.png" class="product-card-img-top" alt="CCTV" />
+            <div class="product-card-body">
+              <h5 class="product-card-title">Metal Tipping Bucket</h5>
+              <p class="product-card-text">Metal Tipping Bucket Rainfall Sensor Rain Gauge</p>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
+  </div>
+</div>
     
     <!-- Footer -->
     <footer class="site-footer bg-fixed" role="contentinfo">

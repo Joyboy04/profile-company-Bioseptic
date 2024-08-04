@@ -26,7 +26,7 @@
           <a class="navbar-brand" href="index.php">
             <img src="./images/logo_bio_baru(1).png" alt="Bio Logo" class="logo">
             <div class="brand-text">
-              <strong class="brand-title">WEATHER SENSORS & ENVIRONMENTAL SENSORS</strong><br>
+              <strong class="brand-title">BIOSENSOR by</strong><br>
               <span class="brand-subtitle">BIOSEPTIC WATERINDO ABADI</span>
             </div>
           </a>
@@ -48,14 +48,14 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="product.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Architectural Design</a>
-                  <a class="dropdown-item" href="services.html">Interior</a>
-                  <a class="dropdown-item" href="services.html">Building</a>
+                <a class="dropdown-item" href="wqms.php">WQMS</a>
+                <a class="dropdown-item" href="aqms.php">AQMS</a>
+                <a class="dropdown-item" href="gas-sensor.php">AGMS</a>
                 </div>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="blog.php">Blog</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="contact.php">Contact</a>
               </li>
@@ -253,7 +253,7 @@
         <div class="card">
           <div class="card-body text-center">
             <h4 class="card-title">Misi</h4>
-            <p class="card-text">Fokus memberi solusi terkait permasalahan-permasalahan lingkungan dan cuaca, mempermudah industri EPM dan O&M dalam pengolahan air bersih dan air limbah secarai kompetitif, inovatif dan ramah lingkungan</p>
+            <p class="card-text">Fokus memberi solusi terkait permasalahan-permasalahan lingkungan dan cuaca, mempermudah industri EPM dan O&M dalam pengolahan air bersih dan air limbah secarai kompetitif, inovatif dan ramah lingkungan.</p>
           </div>
         </div>
       </div>
@@ -351,7 +351,7 @@
           <!-- Map without Card -->
           <div class="col-md-6 mb-5 d-flex align-items-stretch">
             <div class="map-container">
-              <iframe width="100%" height="600" referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0; border-radius: 8px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.917072766205!2d106.89604637365792!3d-6.141841360206617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5467feec437%3A0x303ac0c6d8046341!2sPT.%20BIOSEPTIC%20WATERINDO%20ABADI!5e0!3m2!1sid!2sid!4v1722224076343!5m2!1sid!2sid" allowfullscreen></iframe>
+              <iframe width="100%" height="600" referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0; border-radius: 8px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126938.81272629162!2d106.75381074335937!3d-6.152459299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f50045682b41%3A0xb7af7fc3e634ae32!2sBiosensor!5e0!3m2!1sid!2sid!4v1722503144715!5m2!1sid!2sid" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -359,7 +359,7 @@
     </section>
     <!-- END section -->
 
-    <section class="section bg-light">
+    <!-- <section class="section bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center my-4">
@@ -386,7 +386,6 @@
                     <div class="card">
                         <img src="images/customer/eastpark_apartemen.png" alt="Client 6">
                     </div>
-                    <!-- Repeat images for continuous loop effect -->
                     <div class="card">
                         <img src="images/customer/Amaris_Hotel.png" alt="Client 1">
                     </div>
@@ -408,14 +407,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
      
     <footer class="site-footer bg-fixed" role="contentinfo">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4 mb-5">
-            <h3>About The Bioseptic Waterindo Abadi</h3>
-            <p class="mb-5">PT Bioseptic Waterindo Abadi (Bio) menyediakan layanan EPC, O&M, peralatan pengolahan air dan limbah, serta pelatihan untuk supervisor dan operator. Kami mematuhi standar ISO 9001, ISO 14001, dan ISO 18001, didukung teknologi dari Nordic Water Swedia, dan juga menawarkan sensor cuaca serta sensor lingkungan.</p>
+            <h3>About The Biosensor</h3>
+            <p class="mb-5" style="text-align: justify">BioSensor adalah inovasi dari PT. Bioseptic Waterindo Abadi, dirancang untuk menjawab tantangan yang dihadapi oleh mitra dan klien kami. Kami adalah perusahaan terpercaya di Indonesia yang berkomitmen untuk menyediakan solusi yang efisien dan efektif. Produk unggulan kami, BioSensor, mengintegrasikan teknologi terkini untuk menghadapi berbagai masalah. Dengan fokus pada Industrial Internet of Things (IoT), Bio Sensor menawarkan solusi sensor canggih untuk sektor Oil & Gas, Air, Air Limbah, dan Tanah. Kami bertekad untuk membawa teknologi modern dan solusi inovatif dalam setiap produk kami.</p>
             <ul class="list-unstyled footer-link d-flex footer-social">
               <li><a href="#" class="p-2"><span class="fa fa-twitter text-danger"></span></a></li>
               <li><a href="#" class="p-2"><span class="fa fa-facebook text-danger"></span></a></li>
@@ -429,7 +428,7 @@
               <li class="d-block">
                 <span class="d-block">Production Office Location:</span>
                 <div class="address-group">
-                  <span>Ruko Batavia Blok LC9/29, Kelapa Gading, Jakarta Utara</span>
+                  <span>Rukan, Jl. Raya Gading Batavia No.29 Blok LC 9, RT.10/RW.7, Klp. Gading Bar., Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14240</span>
                   <br>
                   <span class="d-block address-separator">Main Office Location:</span>
                   <span>Jl. Gading Kirana Utara No.8 Blok F10, RT.11/RW.8, West Kelapa Gading, Kelapa Gading, North Jakarta City, Jakarta 14240</span>
@@ -441,7 +440,7 @@
               </li>
               <li class="d-block">
                 <span class="d-block">Email:</span>
-                <span>info@gmail.com</span>
+                <span>admin@biosensor.co.id</span>
               </li>
             </ul>
           </div>
@@ -449,8 +448,8 @@
             <h3>Quick Links</h3>
             <ul class="list-unstyled footer-link">
               <li><a href="about.php">About</a></li>
-              <li><a href="projects.php#product-video">Video Product</a></li>
-              <li><a href="#">Product</a></li>
+              <li><a href="projects.php">Project</a></li>
+              <li><a href="product.php">Product</a></li>
               <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
