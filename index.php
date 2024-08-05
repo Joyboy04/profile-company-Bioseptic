@@ -29,8 +29,8 @@
           <a class="navbar-brand" href="index.php">
             <img src="./images/logo_bio_baru(1).png" alt="Bio Logo" class="logo">
             <div class="brand-text">
-              <strong class="brand-title">BIOSENSOR by</strong><br>
-              <span class="brand-subtitle">BIOSEPTIC WATERINDO ABADI</span>
+              <strong class="brand-title">BIOSENSOR</strong><br>
+              <!-- <span class="brand-subtitle">BIOSEPTIC WATERINDO ABADI</span> -->
             </div>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +72,7 @@
     <div class="top-shadow"></div>
 
     <section class="home-slider owl-carousel">
-  <div class="slider-item" style="background-image: url('images/1.jpg');">
+  <div class="slider-item" style="background-image: url('images/1.png');">
     <div class="container">
       <div class="row slider-text align-items-center justify-content-center">
         <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -83,16 +83,6 @@
   </div>
 
   <div class="slider-item" style="background-image: url('images/2.png');">
-    <div class="container">
-      <div class="row slider-text align-items-center justify-content-center">
-        <div class="col-lg-7 text-center col-sm-12 element-animate">
-          <!-- Removed <p> tag here -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="slider-item" style="background-image: url('images/3.png');">
     <div class="container">
       <div class="row slider-text align-items-center justify-content-center">
         <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -124,9 +114,140 @@
 </section>
     <!-- END slider -->
 
-    
+    <section class="section bg-light">
+      <div class="container mt-2">
+        <div class="row justify-content-center mb-5 element-animate">
+          <div class="col-md-8 text-center">
+            <h2 class="heading mb-5">Sertifikasi Biosensor</h2>
+            <p class="mb-3 lead">Komitmen Biosensor untuk Negeri menghadirkan Layanan Solutif yang telah tersertifikasi</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1U9bbZZ3JN_F1-LZOjFT3vRcI4uCXapgj/view?usp=sharing')">
+            <img src="images/sertifikasi/WEF.PNG" class="certificate-img" alt="WEF">
+            <h5>WEF Member</h5>
+            <p class="text-center">Water Enviroment Federation Member</p>
+          </div>
+          <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iEGV6NNkmQ4lnOjS9KmKShkQOD9ytuBo/view?usp=sharing')">
+            <img src="images/sertifikasi/ISO.png" class="certificate-img" alt="ISO">
+            <h5>ISO 9001</h5>
+            <p class="text-center">Quality Management System</p>
+          </div>
+          <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iEGV6NNkmQ4lnOjS9KmKShkQOD9ytuBo/view?usp=sharing')">
+            <img src="images/sertifikasi/ISO.PNG" class="certificate-img" alt="ISO">
+            <h5>ISO 14001</h5>
+            <p class="text-center">Environmental Management System</p>
+          </div>
+          <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1iEGV6NNkmQ4lnOjS9KmKShkQOD9ytuBo/view?usp=sharing')">
+            <img src="images/sertifikasi/ISO.PNG" class="certificate-img" alt="ISO">
+            <h5>ISO 45001</h5>
+            <p class="text-center">Occupational Health and Safety Management System</p>
+          </div>
+          <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1az8UhYwlN20c3QFjFcWI-5ThWU7ig4ui/view?usp=sharing')">
+            <img src="images/sertifikasi/Merek.jpg" class="certificate-img" alt="Sertifikat Merek">
+            <h5>Sertifikat Kementrian Hukum dan Ham</h5>
+            <p class="text-center">Hak Merek Sertifikat</p>
+          </div>
+          <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1t_VHfnug2-JOfSgMcxvbRZjDl4hTKTx-/view?usp=sharing')">
+            <img src="images/sertifikasi/TKDN.png" class="certificate-img" alt="Sertifikat TKDN">
+            <h5>Sertifikat Kementrian Perindustrian</h5>
+            <p class="text-center">Sertifikat Tanda Sah Capaian Tingkat Komponen Dalam Negeri</p>
+          </div>
+          <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/1ghpoRxPVbJku5q-tzUaczKey_J0840VK/view?usp=sharing')">
+            <img src="images/sertifikasi/KLHK.png" class="certificate-img" alt="Sertifikat Uji Konektivitas">
+            <h5>Sertifikat Kementrian Lingkungan Hidup</h5>
+            <p class="text-center">Sertifikat Lulus Uji Dari Kementrian Lingkungan</p>
+          </div>
+          <div class="col-md-3 certificate" onclick="openFullscreen('https://drive.google.com/file/d/10pSVA-HYbZcmafvZxLsZYIroZWhYXYs0/view?usp=sharing')">
+            <img src="images/sertifikasi/KAN.png" class="certificate-img" alt="Sertifikat Uji Validasi">
+            <h5>Sertifikat Komite Akreditasi Nasional</h5>
+            <p class="text-center">Sertifikat Hasil Lulus Uji Validasi</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section class="section">
+    <section class="section border-t pb-0">
+    <div class="container">
+        <div class="row justify-content-center mb-5 element-animate">
+            <div class="col-md-8 text-center">
+                <h2 class="heading mb-4">Produk</h2>
+                <p class="mb-5 lead">
+                    Biosensor adalah produsen sensor cuaca dan lingkungan. Kami menyediakan produk berkualitas dan layanan EPC serta O&M untuk kebutuhan pemantauan.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <?php
+            // Include database connection
+            include './db/db_connect.php';
+
+            // Query to fetch products
+            $sql = "SELECT id, name, image_path, description FROM products";
+            $result = $conn->query($sql);
+
+            // Check for query execution errors
+            if ($result === false) {
+                echo "<p>Error: " . $conn->error . "</p>";
+                // Display no products available message if query fails
+                echo '<p>No products available.</p>';
+            } else {
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $short_description = substr($row["description"], 0, 100) . (strlen($row["description"]) > 100 ? '...' : '');
+                        echo '<div class="col-md-4 element-animate">';
+                        echo '<a href="product.php'. '" class="link-thumbnail">';
+                        echo '<h3>' . htmlspecialchars($row["name"]) . '</h3>';
+                        echo '<img src="' . htmlspecialchars($row["image_path"]) . '" alt="' . htmlspecialchars($row["name"]) . '" class="img-fluid">';
+                        echo '</a>';
+                        echo '</div>';
+                    }
+                } else {
+                    echo '<p>No products available.</p>';
+                }
+            }
+
+            // Close connection
+            $conn->close();
+            ?>
+        </div>
+    </div>
+</section>
+    
+<section class="application-section py-5">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-12 text-center">
+                <h2 class="application-heading mb-4">Layanan Kami</h2>
+                <p class="application-description mb-5">Biosensor banyak diterapkan dalam pemantauan cuaca dan pemantauan lingkungan, Sistem Pemantauan Kualitas Air, Sistem Pemantauan Kualitas Udara, Sistem Pemantauan Gas Otomatis.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4 image-container-application">
+                <a href="link_to_air_quality_monitoring">
+                    <img src="images/WQMS.png" alt="Air Quality Monitoring" class="img-fluid">
+                    <p>Water Quality Monitoring System</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 image-container-application">
+                <a href="link_to_smart_agriculture">
+                    <img src="images/AQMS.png" alt="Smart Agriculture" class="img-fluid">
+                    <p>Air Quality Monitoring System</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 image-container-application">
+                <a href="link_to_solar_pv_industry">
+                    <img src="images/AGMS.png" alt="Solar PV Industry" class="img-fluid">
+                    <p>Automatic Gas Monitoring System</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- <section class="section">
   <div class="container">
     <div class="row mb-5">
       <div class="col-12 text-center">
@@ -182,59 +303,10 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
   <!-- END section -->
 
-  <section class="section element-animate">
-  <div class="container">
-    <!-- Header -->
-    <div class="text-center mb-5">
-      <h2>Layanan Kami</h2>
-    </div>
-
-    <!-- First Service Block -->
-    <div class="row align-items-center mb-5">
-      <div class="col-lg-7">
-        <div class="scaling-image">
-          <div class="frame">
-            <img src="images/water.jpg" alt="Peralatan Pengolahan Air" class="img-fluid">
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5 pl-md-5">
-        <div class="block-41">
-          <h3 class="block-41-heading mb-4">Pengolahan Air</h3>
-          <div class="block-41-text">
-            <p style="text-align: justify">Kami menyediakan berbagai peralatan pengolahan air, baik yang merupakan inovasi internal maupun impor dari mitra internasional kami. Salah satu mitra utama kami, Nordic Water Swedia, mendukung kami dalam menyediakan teknologi terkini untuk pengolahan air.</p>
-            <p><a href="http://bioseptic.co.id/" target="_blank" class="readmore text-danger">Baca Selengkapnya <span class="ion-android-arrow-dropright-circle"></span></a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Second Service Block -->
-    <div class="row align-items-center mb-5 bg-light">
-      <div class="col-lg-7 order-lg-2">
-        <div class="scaling-image">
-          <div class="frame">
-            <img src="images/biosensor.jpg" alt="Pemantauan Hidrologi" class="img-fluid">
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5 pr-md-5">
-        <div class="block-41">
-          <h3 class="block-41-heading mb-4">Online Monitoring</h3>
-          <div class="block-41-text">
-            <p style="text-align: justify">kami menyediakan solusi untuk mengatasi masalah pecemaran lingkungan, cuaca serta gas berbahaya beracun dengan IOT system. Monitoring secara realtime dan online mampu mendeteksi masalah sejak dini, sehingga dapat diatasi dengan cepat, tepat dan efisien</p>
-            <p><a href="#" class="readmore text-danger">Baca Selengkapnya <span class="ion-android-arrow-dropright-circle"></span></a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section bg-danger">
+<!-- <section class="section bg-danger">
   <div class="container">
     <div class="row justify-content-center align-items-center min-vh-100">
       <div class="col-md-8 element-animate text-center">
@@ -247,57 +319,7 @@
       </div>
     </div>
   </div>
-</section>
-
-
-    <section class="section border-t pb-0">
-    <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
-            <div class="col-md-8 text-center">
-                <h2 class="heading mb-4">Products</h2>
-                <p class="mb-5 lead">
-                    Bioseptic Waterindo Abadi adalah produsen sensor cuaca dan lingkungan dengan lebih dari 10 tahun pengalaman. Kami menyediakan produk berkualitas dan layanan EPC serta O&M untuk kebutuhan pemantauan.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row no-gutters">
-            <?php
-            // Include database connection
-            include './db/db_connect.php';
-
-            // Query to fetch products
-            $sql = "SELECT id, name, image_path, description FROM products";
-            $result = $conn->query($sql);
-
-            // Check for query execution errors
-            if ($result === false) {
-                echo "<p>Error: " . $conn->error . "</p>";
-                // Display no products available message if query fails
-                echo '<p>No products available.</p>';
-            } else {
-                if ($result->num_rows > 0) {
-                    while ($row = $result->fetch_assoc()) {
-                        $short_description = substr($row["description"], 0, 100) . (strlen($row["description"]) > 100 ? '...' : '');
-                        echo '<div class="col-md-4 element-animate">';
-                        echo '<a href="product.php'. '" class="link-thumbnail">';
-                        echo '<h3>' . htmlspecialchars($row["name"]) . '</h3>';
-                        echo '<img src="' . htmlspecialchars($row["image_path"]) . '" alt="' . htmlspecialchars($row["name"]) . '" class="img-fluid">';
-                        echo '</a>';
-                        echo '</div>';
-                    }
-                } else {
-                    echo '<p>No products available.</p>';
-                }
-            }
-
-            // Close connection
-            $conn->close();
-            ?>
-        </div>
-    </div>
-</section>
+</section> -->
 
 
     <!-- <section class="section blog">
@@ -346,90 +368,125 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col-12 text-center">
-        <h2 class="heading mb-4">Kami di sini untuk menjawab semua pertanyaan Anda</h2>
-        <p class="lead">Jika Anda baru mengenal Biosensor atau ingin meningkatkan sistem Anda saat ini, bagian ini akan membantu Anda memahami lebih dalam tentang Biosensors fitur-fiturnya.</p>
+        <h2 class="heading mb-4">Kami di sini untuk menjawab semua pertanyaan Anda Tentang Biosensor</h2>
+        <p class="lead">Biosensor hadir sebagai bentuk jawaban atas permasalahan-permasalahan yang dihadapi oleh Mitra dan Klien kami. Sebagai perusahaan yang telah dipercaya dan diandalkan di Indonesia, PT. Bioseptic Waterindo Abadi berkomitmen untuk menghadirkan solusi terbaik, terefisien dan terefektif.
+
+Biosensor adalah produk andalan yang diluncurkan PT. Bioseptic Waterindo Abadi sebagai solusi dan siap untuk mengatasi permasalahan menggunakan teknologi terdepan yang canggih dan modern.
+
+Tanpa membatasi lingkup parameter dari spesialisasi kami, Biosensor by Bioseptic Waterindo Abadi Memberi Solusi System Internet of Things (IoT) dan Produk Sensor yang solutif untuk Oil & Gas, Water, Air, dan Soil.</p>
       </div>
     </div>
-    <div class="accordion" id="faqAccordion">
+    <div class="faq-content">
       <div class="card mb-3">
         <div class="card-header" id="headingOne">
-          <h2 class="heading mb-0">
-            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Apa itu BioSensor?
-              <span class="ml-auto">+</span>
-            </button>
-          </h2>
+          <h2 class="heading mb-0">Apa itu BioSensor?</h2>
         </div>
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
-          <div class="card-body">
-            Biosensor hadir sebagai solusi atas permasalahan-permasalan maupun kebutuhan terkait pemantuan lingkungan yang mengalami pencemaran. Dilengkapi dengan konsep design yang efektif, realtime dalam pengiriman data dan canggih, Bio Sensor mampu memberikan berbagai service dalam satu sistem yang lebih cepat dan efisien.
-          </div>
+        <div class="card-body">
+          Biosensor hadir sebagai solusi atas permasalahan-permasalan maupun kebutuhan terkait pemantuan lingkungan yang mengalami pencemaran. Dilengkapi dengan konsep design yang efektif, realtime dalam pengiriman data dan canggih, Bio Sensor mampu memberikan berbagai service dalam satu sistem yang lebih cepat dan efisien.
         </div>
       </div>
       <div class="card mb-3">
         <div class="card-header" id="headingTwo">
-          <h1 class="heading mb-0">
-            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Apa saja layanan Biosensor?
-              <span class="ml-auto">+</span>
-            </button>
-          </h1>
+          <h2 class="heading mb-0">Apa saja layanan Biosensor?</h2>
         </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
-          <div class="card-body">
-            Biosensor memiliki produk-produk unggul dalam pengaplikasian terhadap lingkungan. Sensor kualitas air bersih/air sungai, Sensor udara, Sensor gas detector berbahaya dan beracun.
-          </div>
+        <div class="card-body">
+          Biosensor memiliki produk-produk unggul dalam pengaplikasian terhadap lingkungan. Sensor kualitas air bersih/air sungai, Sensor udara, Sensor gas detector berbahaya dan beracun.
         </div>
       </div>
       <div class="card mb-3">
         <div class="card-header" id="headingThree">
-          <h5 class="heading mb-0">
-            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Apa keunggulan BioSensor?
-              <span class="ml-auto">+</span>
-            </button>
-          </h5>
+          <h2 class="heading mb-0">Apa keunggulan BioSensor?</h2>
         </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
-          <div class="card-body">
-            Biosensor menawarkan sistem pengendali IoT yang sepenuhnya terhubung melalui internet, dengan desain kompak dan sistem kalibrasi terpadu yang memenuhi standarisasi laboratorium sertifikasi KAN. Sistem informasi kami dapat diakses secara real-time. Sistem HMI kami menggunakan Windows 10 dengan prosesor Intel. Selain itu, kami juga menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain Biosensor.
-          </div>
+        <div class="card-body">
+          Biosensor menawarkan sistem pengendali IoT yang sepenuhnya terhubung melalui internet, dengan desain kompak dan sistem kalibrasi terpadu yang memenuhi standarisasi laboratorium sertifikasi KAN. Sistem informasi kami dapat diakses secara real-time. Sistem HMI kami menggunakan Windows 10 dengan prosesor Intel. Selain itu, kami juga menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain Biosensor.
         </div>
       </div>
       <div class="card mb-3">
         <div class="card-header" id="headingFour">
-          <h5 class="heading mb-0">
-            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-            Apa jaminan yang didapatkan Customer BioSensor?
-              <span class="ml-auto">+</span>
-            </button>
-          </h5>
+          <h2 class="heading mb-0">Apa jaminan yang didapatkan Customer BioSensor?</h2>
         </div>
-        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
-          <div class="card-body">
-            Biosensor memiliki workshop sendiri yang dilengkapi dengan sertifikasi ISO untuk menjamin kualitas pekerjaan. Kami juga menyediakan jaminan ketersediaan suku cadang hingga 5 tahun ke depan. Layanan kami dikenal baik, komunikatif, dan cepat dalam responsnya. Selain itu, kami menawarkan layanan tambahan VSAT untuk memastikan pengiriman data ke pelanggan terjamin dengan baik.
-          </div>
+        <div class="card-body">
+          Biosensor memiliki workshop sendiri yang dilengkapi dengan sertifikasi ISO untuk menjamin kualitas pekerjaan. Kami juga menyediakan jaminan ketersediaan suku cadang hingga 5 tahun ke depan. Layanan kami dikenal baik, komunikatif, dan cepat dalam responsnya. Selain itu, kami menawarkan layanan tambahan VSAT untuk memastikan pengiriman data ke pelanggan terjamin dengan baik.
         </div>
       </div>
       <div class="card mb-3">
         <div class="card-header" id="headingFive">
-          <h5 class="heading mb-0">
-            <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-            Apa yang perlu dimengerti dari layanan BioSensor?
-              <span class="ml-auto">+</span>
-            </button>
-          </h5>
+          <h2 class="heading mb-0">Apa yang perlu dimengerti dari layanan BioSensor?</h2>
         </div>
-        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
-          <div class="card-body">
-            Operasional sistem kami dirancang agar mudah dan efisien. Dengan sistem IoT yang canggih, kami menyajikan informasi melalui HMI secara informatif dan mudah dipahami. Sebagian dari daya operasional kami menggunakan sistem PLTS (Pembangkit Listrik Tenaga Surya), sehingga pasokan daya menjadi lebih efisien. Kami juga menyediakan layanan purna jual selama masa garansi produk. Selain itu, kami menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain BIOSENSOR.
-          </div>
+        <div class="card-body">
+          Operasional sistem kami dirancang agar mudah dan efisien. Dengan sistem IoT yang canggih, kami menyajikan informasi melalui HMI secara informatif dan mudah dipahami. Sebagian dari daya operasional kami menggunakan sistem PLTS (Pembangkit Listrik Tenaga Surya), sehingga pasokan daya menjadi lebih efisien. Kami juga menyediakan layanan purna jual selama masa garansi produk. Selain itu, kami menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain BIOSENSOR.
         </div>
       </div>
     </div>
     <div class="text-center mt-5">
-      <p>Got any more questions?</p>
-      <a href="contact.php" class="btn btn-primary">Get in touch</a>
+      <p class="lead">Ada pertanyaan lain?</p>
+      <a href="contact.php" class="btn btn-primary btn-sm">Hubungi Kami</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="gallery-section py-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="gallery-heading mb-4">Yang Akan Anda Dapatkan dengan Membeli Produk Biosensor?</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="gallery-image-container">
+          <img src="images/product/biosensor/mini-pc.png" alt="Sensor Kualitas Udara" class="img-fluid">
+          <p>Mini Pc Windows</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="gallery-image-container">
+          <img src="images/product/biosensor/videotron.jpg" alt="Sistem Pemantauan Air" class="img-fluid">
+          <p>Videotron Live</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="gallery-image-container">
+          <img src="images/product/biosensor/cctv.jpg" alt="Sistem IoT Terintegrasi" class="img-fluid">
+          <p>CCTV</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="gallery-image-container">
+          <img src="images/product/biosensor/vsat.jpg" alt="Pengukur Emisi Gas" class="img-fluid">
+          <p>VSAT+Modem</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="gallery-image-container">
+          <img src="images/product/biosensor/panel-surya.webp" alt="Layanan Kalibrasi" class="img-fluid">
+          <p>Panel Surya</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section block-11">
+  <div class="container">
+    <div class="row justify-content-center mb-3">
+      <div class="col-md-8 text-center">
+        <h2 class="heading mb-2">Sebaran Proyek Bioseptik Waterindo Abadi</h2>
+      </div>
+    </div>
+    <div class="nonloop-block-11 owl-carousel">
+      <div class="item">
+        <div class="block-33">
+          <div class="image-container d-flex justify-content-center">
+            <a href="images/about/map.png" data-fancybox="gallery">
+              <img src="images/about/map.png" alt="map" style="width: 1000px; height: auto;">
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

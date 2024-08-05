@@ -85,7 +85,7 @@
           <div class="list-group">
             <a href="product.php" class="list-group-item list-group-item-action">Biosensor</a>
             <a href="wqms.php" class="list-group-item list-group-item-action">Water Quality Monitoring System(WQMS)</a>
-            <a href="aqms.php" class="list-group-item list-group-item-action">Air Quality Management System(AQMS)</a>
+            <a href="aqms.php" class="list-group-item list-group-item-action">Air Quality Monitoring System(AQMS)</a>
             <a href="gas-sensor.php" class="list-group-item list-group-item-action active">Automatic Gas Monitoring System(AGMS)</a>
           </div>
         </div>

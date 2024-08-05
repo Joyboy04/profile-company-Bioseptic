@@ -85,12 +85,12 @@
           <div class="list-group">
             <a href="product.php" class="list-group-item list-group-item-action">Biosensor</a>
             <a href="wqms.php" class="list-group-item list-group-item-action">Water Quality Monitoring System(WQMS)</a>
-            <a href="aqms.php" class="list-group-item list-group-item-action active">Air Quality Management System(AQMS)</a>
+            <a href="aqms.php" class="list-group-item list-group-item-action active">Air Quality Monitoring System(AQMS)</a>
             <a href="gas-sensor.php" class="list-group-item list-group-item-action">Automatic Gas Monitoring System(AGMS)</a>
           </div>
         </div>
         <div class="col-md-9 mb-5"> <!-- Added mb-5 for spacing -->
-                <h2 class="section-title">Air Quality Management System (AQMS)</h2>
+                <h2 class="section-title">Air Quality Monitoring System (AQMS)</h2>
                 <a href="images/product/aqms/aqms.webp" data-fancybox="gallery">
                     <img src="images/product/aqms/aqms.webp" alt="Air Quality Management System" class="img-fluid mb-4" style="width: 600px; height: 400px">
                 </a>
