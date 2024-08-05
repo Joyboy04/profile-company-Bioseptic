@@ -241,7 +241,7 @@
         <div class="media block-6 d-block">
           <div class="media-body">
             <h1 class="heading text-white">Hubungi Kami untuk Penawaran Gratis Sekarang!</h1>
-            <a href="./contact.html" class="custom-button">Contact us now</a>
+            <a href="./contact.php" class="custom-button">Contact us now</a>
           </div>
         </div> 
       </div>
@@ -353,37 +353,37 @@
     <div class="accordion" id="faqAccordion">
       <div class="card mb-3">
         <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
+          <h2 class="heading mb-0">
             <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             Apa itu BioSensor?
               <span class="ml-auto">+</span>
             </button>
-          </h5>
+          </h2>
         </div>
         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
           <div class="card-body">
-          Biosensor hadir sebagai solusi atas permasalahan-permasalan maupun kebutuhan terkait pemantuan lingkungan yang mengalami pencemaran. Dilengkapi dengan konsep design yang efektif, realtime dalam pengiriman data dan canggih, Bio Sensor mampu memberikan berbagai service dalam satu sistem yang lebih cepat dan efisien.
+            Biosensor hadir sebagai solusi atas permasalahan-permasalan maupun kebutuhan terkait pemantuan lingkungan yang mengalami pencemaran. Dilengkapi dengan konsep design yang efektif, realtime dalam pengiriman data dan canggih, Bio Sensor mampu memberikan berbagai service dalam satu sistem yang lebih cepat dan efisien.
           </div>
         </div>
       </div>
       <div class="card mb-3">
         <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
+          <h1 class="heading mb-0">
             <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Apa saja layanan Biosensor?
               <span class="ml-auto">+</span>
             </button>
-          </h5>
+          </h1>
         </div>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
           <div class="card-body">
-          Biosensor memiliki produk-produk unggul dalam pengaplikasian terhadap lingkungan. Sensor kualitas air bersih/air sungai, Sensor udara, Sensor gas detector berbahaya dan beracun.
+            Biosensor memiliki produk-produk unggul dalam pengaplikasian terhadap lingkungan. Sensor kualitas air bersih/air sungai, Sensor udara, Sensor gas detector berbahaya dan beracun.
           </div>
         </div>
       </div>
       <div class="card mb-3">
         <div class="card-header" id="headingThree">
-          <h5 class="mb-0">
+          <h5 class="heading mb-0">
             <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             Apa keunggulan BioSensor?
               <span class="ml-auto">+</span>
@@ -392,13 +392,13 @@
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
           <div class="card-body">
-          Biosensor menawarkan sistem pengendali IoT yang sepenuhnya terhubung melalui internet, dengan desain kompak dan sistem kalibrasi terpadu yang memenuhi standarisasi laboratorium sertifikasi KAN. Sistem informasi kami dapat diakses secara real-time. Sistem HMI kami menggunakan Windows 10 dengan prosesor Intel. Selain itu, kami juga menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain Biosensor.
+            Biosensor menawarkan sistem pengendali IoT yang sepenuhnya terhubung melalui internet, dengan desain kompak dan sistem kalibrasi terpadu yang memenuhi standarisasi laboratorium sertifikasi KAN. Sistem informasi kami dapat diakses secara real-time. Sistem HMI kami menggunakan Windows 10 dengan prosesor Intel. Selain itu, kami juga menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain Biosensor.
           </div>
         </div>
       </div>
       <div class="card mb-3">
         <div class="card-header" id="headingFour">
-          <h5 class="mb-0">
+          <h5 class="heading mb-0">
             <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
             Apa jaminan yang didapatkan Customer BioSensor?
               <span class="ml-auto">+</span>
@@ -407,13 +407,13 @@
         </div>
         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
           <div class="card-body">
-          Biosensor memiliki workshop sendiri yang dilengkapi dengan sertifikasi ISO untuk menjamin kualitas pekerjaan. Kami juga menyediakan jaminan ketersediaan suku cadang hingga 5 tahun ke depan. Layanan kami dikenal baik, komunikatif, dan cepat dalam responsnya. Selain itu, kami menawarkan layanan tambahan VSAT untuk memastikan pengiriman data ke pelanggan terjamin dengan baik.
+            Biosensor memiliki workshop sendiri yang dilengkapi dengan sertifikasi ISO untuk menjamin kualitas pekerjaan. Kami juga menyediakan jaminan ketersediaan suku cadang hingga 5 tahun ke depan. Layanan kami dikenal baik, komunikatif, dan cepat dalam responsnya. Selain itu, kami menawarkan layanan tambahan VSAT untuk memastikan pengiriman data ke pelanggan terjamin dengan baik.
           </div>
         </div>
       </div>
       <div class="card mb-3">
         <div class="card-header" id="headingFive">
-          <h5 class="mb-0">
+          <h5 class="heading mb-0">
             <button class="btn btn-link d-flex justify-content-between align-items-center w-100" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
             Apa yang perlu dimengerti dari layanan BioSensor?
               <span class="ml-auto">+</span>
@@ -422,7 +422,7 @@
         </div>
         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
           <div class="card-body">
-          Operasional sistem kami dirancang agar mudah dan efisien. Dengan sistem IoT yang canggih, kami menyajikan informasi melalui HMI secara informatif dan mudah dipahami. Sebagian dari daya operasional kami menggunakan sistem PLTS (Pembangkit Listrik Tenaga Surya), sehingga pasokan daya menjadi lebih efisien. Kami juga menyediakan layanan purna jual selama masa garansi produk. Selain itu, kami menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain BIOSENSOR.
+            Operasional sistem kami dirancang agar mudah dan efisien. Dengan sistem IoT yang canggih, kami menyajikan informasi melalui HMI secara informatif dan mudah dipahami. Sebagian dari daya operasional kami menggunakan sistem PLTS (Pembangkit Listrik Tenaga Surya), sehingga pasokan daya menjadi lebih efisien. Kami juga menyediakan layanan purna jual selama masa garansi produk. Selain itu, kami menerima layanan Operasi dan Pemeliharaan (O&M) untuk produk-produk selain BIOSENSOR.
           </div>
         </div>
       </div>
@@ -441,7 +441,8 @@
     <div class="row mb-5">
       <div class="col-md-4 mb-5">
         <h3>About The Biosensor</h3>
-        <p class="mb-5" style="text-align: justify">BioSensor adalah inovasi dari PT. Bioseptic Waterindo Abadi, dirancang untuk menjawab tantangan yang dihadapi oleh mitra dan klien kami. Kami adalah perusahaan terpercaya di Indonesia yang berkomitmen untuk menyediakan solusi yang efisien dan efektif. Produk unggulan kami, BioSensor, mengintegrasikan teknologi terkini untuk menghadapi berbagai masalah. Dengan fokus pada Industrial Internet of Things (IoT), Bio Sensor menawarkan solusi sensor canggih untuk sektor Oil & Gas, Air, Air Limbah, dan Tanah. Kami bertekad untuk membawa teknologi modern dan solusi inovatif dalam setiap produk kami.</p>
+        <p class="mb-5" style="text-align: justify">Biosensor adalah produk andalan yang diluncurkan PT. Bioseptic Waterindo Abadi sebagai solusi dan siap untuk mengatasi permasalahan menggunakan teknologi terdepan yang canggih dan modern.
+          Tanpa membatasi lingkup parameter dari spesialisasi kami, Biosensor by Bioseptic Waterindo Abadi Memberi Solusi System Internet of Things (IoT) dan Produk Sensor yang solutif untuk Oil & Gas, Water, Air, dan Soil.</p>
         <ul class="list-unstyled footer-link d-flex footer-social">
           <li><a href="#" class="p-2"><span class="fa fa-twitter text-danger"></span></a></li>
           <li><a href="#" class="p-2"><span class="fa fa-facebook text-danger"></span></a></li>
@@ -467,7 +468,7 @@
           </li>
           <li class="d-block">
             <span class="d-block">Email:</span>
-            <span>info@gmail.com</span>
+            <span>admin@biosensor.co.id</span>
           </li>
         </ul>
       </div>

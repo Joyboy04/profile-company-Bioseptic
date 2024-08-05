@@ -320,7 +320,8 @@
         <div class="row mb-5">
           <div class="col-md-4 mb-5">
             <h3>About The Biosensor</h3>
-            <p class="mb-5" style="text-align: justify">Biosensor adalah inovasi dari PT. Bioseptic Waterindo Abadi, dirancang untuk menjawab tantangan yang dihadapi oleh mitra dan klien kami. Kami adalah perusahaan terpercaya di Indonesia yang berkomitmen untuk menyediakan solusi yang efisien dan efektif. Produk unggulan kami, BioSensor, mengintegrasikan teknologi terkini untuk menghadapi berbagai masalah. Dengan fokus pada Industrial Internet of Things (IoT), Bio Sensor menawarkan solusi sensor canggih untuk sektor Oil & Gas, Air, Air Limbah, dan Tanah. Kami bertekad untuk membawa teknologi modern dan solusi inovatif dalam setiap produk kami.</p>
+            <p class="mb-5" style="text-align: justify">Biosensor adalah produk andalan yang diluncurkan PT. Bioseptic Waterindo Abadi sebagai solusi dan siap untuk mengatasi permasalahan menggunakan teknologi terdepan yang canggih dan modern.
+              Tanpa membatasi lingkup parameter dari spesialisasi kami, Biosensor by Bioseptic Waterindo Abadi Memberi Solusi System Internet of Things (IoT) dan Produk Sensor yang solutif untuk Oil & Gas, Water, Air, dan Soil.</p>
             <ul class="list-unstyled footer-link d-flex footer-social">
               <li><a href="#" class="p-2"><span class="fa fa-twitter text-danger"></span></a></li>
               <li><a href="#" class="p-2"><span class="fa fa-facebook text-danger"></span></a></li>
@@ -346,7 +347,7 @@
               </li>
               <li class="d-block">
                 <span class="d-block">Email:</span>
-                <span>info@gmail.com</span>
+                <span>admin@biosensor.co.id</span>
               </li>
             </ul>
           </div>

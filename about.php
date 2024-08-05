@@ -218,7 +218,7 @@
           <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/water_treatment.jpg')"></div>
           <div class="text text-left element-animate">
             <p class="mb-5" style="text-align: justify">PT. Bioseptic Waterindo Abadi adalah Perusahaan terpercaya dan terkemuka di Indonesia dalam memberikan pelayanan terkait water treatment. Perusahaan kami spesialisasi di bidang EPC, O&M, Penyediaan Peralatan Instalasi Pengolahan Air (IPA) dan Instalasi Pengolahan Air Limbah (IPAL), serta memberikan pelatihan kepada suvervisor dan operator.
-              Pelayanan yang kami berikan berstandar kelayakan manajemen yang telah diuji dan terferivikasi, standar manajemen kami telah tersertifikasi ISO 9001, ISO 14001, ISO 18001, Litbang PU serta teknologi terpercaya dan terjamin keamanannya dari Nordic Water Swedia.
+              Pelayanan yang kami berikan berstandar kelayakan manajemen yang telah diuji dan terferivikasi, standar manajemen kami telah tersertifikasi ISO 9001, ISO 14001, ISO 45001, Litbang PU serta teknologi terpercaya dan terjamin keamanannya dari Nordic Water Swedia.
             </p>
           </div>
         </div>
@@ -230,7 +230,11 @@
     <div class="row mb-5">
       <div class="col-12 text-center">
         <h2>BioSensor</h2>
-        <p>BioSensor adalah inovasi dari PT. Bioseptic Waterindo Abadi, dirancang untuk menjawab tantangan yang dihadapi oleh mitra dan klien kami. Kami adalah perusahaan terpercaya di Indonesia yang berkomitmen untuk menyediakan solusi yang efisien dan efektif. Produk unggulan kami, BioSensor, mengintegrasikan teknologi terkini untuk menghadapi berbagai masalah. Dengan fokus pada Industrial Internet of Things (IoT), Bio Sensor menawarkan solusi sensor canggih untuk sektor Oil & Gas, Air, Air Limbah, dan Tanah. Kami bertekad untuk membawa teknologi modern dan solusi inovatif dalam setiap produk kami.</p>
+        <p>Biosensor hadir sebagai bentuk jawaban atas permasalahan-permasalahan yang dihadapi oleh Mitra dan Klien kami. Sebagai perusahaan yang telah dipercaya dan diandalkan di Indonesia, PT. Bioseptic Waterindo Abadi berkomitmen untuk menghadirkan solusi terbaik, terefisien dan terefektif.
+
+Biosensor adalah produk andalan yang diluncurkan PT. Bioseptic Waterindo Abadi sebagai solusi dan siap untuk mengatasi permasalahan menggunakan teknologi terdepan yang canggih dan modern.
+
+Tanpa membatasi lingkup parameter dari spesialisasi kami, Biosensor by Bioseptic Waterindo Abadi Memberi Solusi System Internet of Things (IoT) dan Produk Sensor yang solutif untuk Oil & Gas, Water, Air, dan Soil.</p>
       </div>
     </div>
 
@@ -414,7 +418,8 @@
         <div class="row mb-5">
           <div class="col-md-4 mb-5">
             <h3>About The Biosensor</h3>
-            <p class="mb-5" style="text-align: justify">BioSensor adalah inovasi dari PT. Bioseptic Waterindo Abadi, dirancang untuk menjawab tantangan yang dihadapi oleh mitra dan klien kami. Kami adalah perusahaan terpercaya di Indonesia yang berkomitmen untuk menyediakan solusi yang efisien dan efektif. Produk unggulan kami, BioSensor, mengintegrasikan teknologi terkini untuk menghadapi berbagai masalah. Dengan fokus pada Industrial Internet of Things (IoT), Bio Sensor menawarkan solusi sensor canggih untuk sektor Oil & Gas, Air, Air Limbah, dan Tanah. Kami bertekad untuk membawa teknologi modern dan solusi inovatif dalam setiap produk kami.</p>
+            <p class="mb-5" style="text-align: justify">Biosensor adalah produk andalan yang diluncurkan PT. Bioseptic Waterindo Abadi sebagai solusi dan siap untuk mengatasi permasalahan menggunakan teknologi terdepan yang canggih dan modern.
+              Tanpa membatasi lingkup parameter dari spesialisasi kami, Biosensor by Bioseptic Waterindo Abadi Memberi Solusi System Internet of Things (IoT) dan Produk Sensor yang solutif untuk Oil & Gas, Water, Air, dan Soil.</p>
             <ul class="list-unstyled footer-link d-flex footer-social">
               <li><a href="#" class="p-2"><span class="fa fa-twitter text-danger"></span></a></li>
               <li><a href="#" class="p-2"><span class="fa fa-facebook text-danger"></span></a></li>
