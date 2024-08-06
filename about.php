@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>PT Bioseptic Waterindo Abadi | About Us</title>
+    <title>Biosensor | About Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,8 +26,7 @@
           <a class="navbar-brand" href="index.php">
             <img src="./images/logo_bio_baru(1).png" alt="Bio Logo" class="logo">
             <div class="brand-text">
-              <strong class="brand-title">BIOSENSOR by</strong><br>
-              <span class="brand-subtitle">BIOSEPTIC WATERINDO ABADI</span>
+              <strong class="brand-title">BIOSENSOR</strong><br>
             </div>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +42,7 @@
                 <a class="nav-link active" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="projects.php">Projects</a>
+                <a class="nav-link" href="gallery.php">Galeri</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="product.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
@@ -68,28 +67,18 @@
 
     <div class="top-shadow"></div>
 
-  <section class="home-slider owl-carousel">
+    <section class="home-slider owl-carousel">
+  <div class="slider-item" style="background-image: url('images/1.png');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-7 text-center col-sm-12 element-animate">
+          <!-- Removed <p> tag here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="slider-item" style="background-image: url('images/2.png');">
-    <div class="container">
-      <div class="row slider-text align-items-center justify-content-center">
-        <div class="col-lg-7 text-center col-sm-12 element-animate">
-          <!-- Removed <p> tag here -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="slider-item" style="background-image: url('images/1.jpg');">
-    <div class="container">
-      <div class="row slider-text align-items-center justify-content-center">
-        <div class="col-lg-7 text-center col-sm-12 element-animate">
-          <!-- Removed <p> tag here -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="slider-item" style="background-image: url('images/3.png');">
     <div class="container">
       <div class="row slider-text align-items-center justify-content-center">
         <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -121,7 +110,7 @@
 </section>
     <!-- END slider -->
 
-    <section class="section bg-light">
+    <!-- <section class="section bg-light">
       <div class="container mt-2">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
@@ -182,7 +171,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="section block-11">
   <div class="container">
@@ -206,41 +195,16 @@
 </section>
 
 
-    <!-- New Section -->
-    <section class="section bg-light">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2>Bioseptic Waterindo Abadi</h2>
-          </div>
-        </div>
-        <div class="half d-lg-flex d-block">
-          <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('images/about/water_treatment.jpg')"></div>
-          <div class="text text-left element-animate">
-            <p class="mb-5" style="text-align: justify">PT. Bioseptic Waterindo Abadi adalah Perusahaan terpercaya dan terkemuka di Indonesia dalam memberikan pelayanan terkait water treatment. Perusahaan kami spesialisasi di bidang EPC, O&M, Penyediaan Peralatan Instalasi Pengolahan Air (IPA) dan Instalasi Pengolahan Air Limbah (IPAL), serta memberikan pelatihan kepada suvervisor dan operator.
-              Pelayanan yang kami berikan berstandar kelayakan manajemen yang telah diuji dan terferivikasi, standar manajemen kami telah tersertifikasi ISO 9001, ISO 14001, ISO 45001, Litbang PU serta teknologi terpercaya dan terjamin keamanannya dari Nordic Water Swedia.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="section bg-light">
   <div class="container">
     <div class="row mb-5">
       <div class="col-12 text-center">
-        <h2>BioSensor</h2>
+        <h2>Tentang Biosensor</h2>
         <p>Biosensor hadir sebagai bentuk jawaban atas permasalahan-permasalahan yang dihadapi oleh Mitra dan Klien kami. Sebagai perusahaan yang telah dipercaya dan diandalkan di Indonesia, PT. Bioseptic Waterindo Abadi berkomitmen untuk menghadirkan solusi terbaik, terefisien dan terefektif.
 
 Biosensor adalah produk andalan yang diluncurkan PT. Bioseptic Waterindo Abadi sebagai solusi dan siap untuk mengatasi permasalahan menggunakan teknologi terdepan yang canggih dan modern.
 
 Tanpa membatasi lingkup parameter dari spesialisasi kami, Biosensor by Bioseptic Waterindo Abadi Memberi Solusi System Internet of Things (IoT) dan Produk Sensor yang solutif untuk Oil & Gas, Water, Air, dan Soil.</p>
-      </div>
-    </div>
-
-    <div class="row mb-5">
-      <div class="col-12">
-        <div class="banner-image element-animate" data-animate-effect="fadeIn" style="background-image: url('images/seminar.png'); background-size: cover; background-position: center; height: 310px;"></div>
       </div>
     </div>
 

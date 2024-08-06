@@ -77,3 +77,73 @@ $(document).ready(function(){
     });
   });
   
+  document.addEventListener("DOMContentLoaded", function () {
+    const scrollers = document.querySelectorAll(".scroller");
+  
+    // If a user hasn't opted in for reduced motion, then we add the animation
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation();
+    }
+  
+    function addAnimation() {
+      scrollers.forEach((scroller) => {
+        // add data-animated="true" to every `.scroller` on the page
+        scroller.setAttribute("data-animated", true);
+  
+        // Make an array from the elements within `.scroller-inner`
+        const scrollerInner = scroller.querySelector(".scroller__inner");
+        const scrollerContent = Array.from(scrollerInner.children);
+  
+        // Clone the elements enough times to fill the container
+        const numberOfDuplicates = 5; // Increase number of duplicates to extend scroll
+        for (let i = 0; i < numberOfDuplicates; i++) {
+          scrollerContent.forEach((item) => {
+            const duplicatedItem = item.cloneNode(true);
+            duplicatedItem.setAttribute("aria-hidden", true);
+            scrollerInner.appendChild(duplicatedItem);
+          });
+        }
+      });
+    }
+  
+    // Lightbox functionality
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    const images = document.querySelectorAll(".scroller-image");
+  
+    images.forEach((image) => {
+      image.addEventListener("click", function () {
+        lightbox.style.display = "block";
+        lightboxImg.src = this.src;
+        pauseScrolling();
+      });
+    });
+  
+    const closeLightbox = document.querySelector(".lightbox-close");
+    closeLightbox.addEventListener("click", function () {
+      lightbox.style.display = "none";
+      resumeScrolling();
+    });
+  
+    // Close lightbox on clicking outside the image
+    lightbox.addEventListener("click", function (event) {
+      if (event.target === lightbox) {
+        lightbox.style.display = "none";
+        resumeScrolling();
+      }
+    });
+  
+    function pauseScrolling() {
+      scrollers.forEach((scroller) => {
+        scroller.querySelector(".scroller__inner").style.animationPlayState = "paused";
+      });
+    }
+  
+    function resumeScrolling() {
+      scrollers.forEach((scroller) => {
+        scroller.querySelector(".scroller__inner").style.animationPlayState = "running";
+      });
+    }
+  });
+  
+  

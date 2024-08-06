@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>PT Bioseptic Waterindo Abadi | Contact</title>
+    <title>Biosensor | Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -29,8 +29,7 @@
           <a class="navbar-brand" href="index.php">
             <img src="./images/logo_bio_baru(1).png" alt="Bio Logo" class="logo">
             <div class="brand-text">
-              <strong class="brand-title">BIOSENSOR by</strong><br>
-              <span class="brand-subtitle">BIOSEPTIC WATERINDO ABADI</span>
+              <strong class="brand-title">BIOSENSOR</strong><br>
             </div>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +45,7 @@
                 <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="projects.php">Projects</a>
+                <a class="nav-link" href="gallery.php">Galeri</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="product.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>

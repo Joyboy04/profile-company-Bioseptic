@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>PT Bioseptic Waterindo Abadi | Projects</title>
+    <title>Biosensor | Projects</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -29,8 +29,7 @@
           <a class="navbar-brand" href="index.php">
             <img src="./images/logo_bio_baru(1).png" alt="Bio Logo" class="logo">
             <div class="brand-text">
-              <strong class="brand-title">BIOSENSOR by</strong><br>
-              <span class="brand-subtitle">BIOSEPTIC WATERINDO ABADI</span>
+              <strong class="brand-title">BIOSENSOR</strong><br>
             </div>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +45,7 @@
                 <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="projects.php">Projects</a>
+                <a class="nav-link active" href="gallery.php">Galeri</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="product.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
@@ -77,7 +76,7 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
-              <h1 class="pt-5"><span>Sebaran Proyek Bioseptic Di Indonesia</span></h1>
+              <h1 class="pt-5"><span>Galeri Biosensor</span></h1>
             </div>
           </div>
         </div>
@@ -89,168 +88,121 @@
   <div class="container">
     <div class="row justify-content-center mb-5 element-animate">
       <div class="col-md-8 text-center">
-        <h2 class="heading mb-4"> Galeri Proyek</h2>
-        <p class="mb-5 lead">Temukan dan Lihat Proyek-Proyek Bioseptic di Seluruh Indonesia di Sini</p>
+        <h2 class="heading mb-4">Galeri Biosensor</h2>
+        <p class="mb-5 lead">Temukan dan Lihat Galeri Biosensor di Seluruh Indonesia di Sini</p>
       </div>
     </div>
     <div class="container mt-5">
-  <div class="row no-gutters">
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Alila-Bali.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Alila Soori Bali</h3>
-        <img src="images/projects/Alila-Bali.jpg" alt="Alila-Soori-Bali" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Amaris-Semarang.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Amaris Semarang</h3>
-        <img src="images/projects/Amaris-Semarang.jpg" alt="Amaris-Semarang" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Aston-Bandung.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Aston Bandung</h3>
-        <img src="images/projects/Aston-Bandung.jpg" alt="Aston-Bandung" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/BAIS-Bandung.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>BAIS Bandung</h3>
-        <img src="images/projects/BAIS-Bandung.jpg" alt="BAIS-Bandung" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/BALI-ULUWATU.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>BALI ULUWATU</h3>
-        <img src="images/projects/BALI-ULUWATU.jpg" alt="BALI-ULUWATU" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/BPK-Penabur.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>BPK Penabur</h3>
-        <img src="images/projects/BPK-Penabur.jpg" alt="BPK-Penabur" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/EastPark-1.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>EastPark</h3>
-        <img src="images/projects/EastPark-1.jpg" alt="EastPark" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Ecohome-HOLCIM.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Ecohome HOLCIM</h3>
-        <img src="images/projects/Ecohome-HOLCIM.jpg" alt="Ecohome" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Green-Andara.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Green Andara</h3>
-        <img src="images/projects/Green-Andara.jpg" alt="greenandara" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Kuningan-City.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Kuningan City</h3>
-        <img src="images/projects/Kuningan-City.jpg" alt="Kuningan City" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Lippo-Extention.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Lippo Extention III</h3>
-        <img src="images/projects/Lippo-Extention.jpg" alt="Lippo" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Novotel-Bangka.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Novotel Bangka</h3>
-        <img src="images/projects/Novotel-Bangka.jpg" alt="Novotel" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Paradiso.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Paradiso</h3>
-        <img src="images/projects/Paradiso.jpg" alt="Paradiso" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/PLTU-Rembang.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>PLTU Rembang</h3>
-        <img src="images/projects/PLTU-Rembang.jpg" alt="PLTU-Rembang" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Ramayana.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Ramayana</h3>
-        <img src="images/projects/Ramayana.jpg" alt="Ramayana" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/RSUD-Cicalengka.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>RSUD Cicalengka</h3>
-        <img src="images/projects/RSUD-Cicalengka.jpg" alt="Cicalengka" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Santika-Medan.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Santika Medan</h3>
-        <img src="images/projects/Santika-Medan.jpg" alt="santika-medan" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/SPBU-Pertamina.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>SPBU Pertamina</h3>
-        <img src="images/projects/SPBU-Pertamina.jpg" alt="spbu-pertamina" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Stadion-Palaran.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Stadion Palaran</h3>
-        <img src="images/projects/Stadion-Palaran.jpg" alt="stadion-palaran" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Terminal-3-Soeta.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Terminal 3 Soeta</h3>
-        <img src="images/projects/Terminal-3-Soeta.jpg" alt="terminal-3-soeta" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/UMN.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>UMN Serpong</h3>
-        <img src="images/projects/UMN.jpg" alt="UMN" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Walikota-Timur.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Walikota Jakarta Timur</h3>
-        <img src="images/projects/Walikota-Timur.jpg" alt="Walikota" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Airport-City.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Airport City</h3>
-        <img src="images/projects/Airport-City.jpg" alt="Airport-City" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/KTI-BIO-Emboss.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>KTI 600 LPS</h3>
-        <img src="images/projects/KTI-BIO-Emboss.jpg" alt="KTI" class="img-fluid">
-      </a>
-    </div>
-    <div class="col-md-4 col-lg-3 element-animate">
-      <a href="images/projects/Freeprot-Papua.jpg" data-fancybox="gallery" class="link-thumbnail">
-        <h3>Freeport Papua</h3>
-        <img src="images/projects/Freeprot-Papua.jpg" alt="FREEPORT" class="img-fluid">
-      </a>
+      <div class="row no-gutters">
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/AGMS.png" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/AGMS.png" alt="Alila-Soori-Bali" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/WQMS.png" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/WQMS.png" alt="Amaris-Semarang" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/AQMS.png" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/AQMS.png" alt="Aston-Bandung" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/air_sensor.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/air_sensor.webp" alt="BAIS-Bandung" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/air_sensor_2.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/air_sensor_2.webp" alt="BALI-ULUWATU" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/air_sensor_3.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/air_sensor_3.webp" alt="EastPark" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/air_sensor_4.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/air_sensor_4.webp" alt="Ecohome" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/air_sensor_5.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/air_sensor_5.webp" alt="greenandara" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/gas_monitoring_1.jpg" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/gas_monitoring_1.jpg" alt="Kuningan City" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/gas_monitoring.jpg" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/gas_monitoring.jpg" alt="Lippo" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/gas_monitoring_2.jpg" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/gas_monitoring_2.jpg" alt="Novotel" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/gas_monitoring_3.jpg" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/gas_monitoring_3.jpg" alt="Paradiso" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/gas_monitoring_4.jpg" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/gas_monitoring_4.jpg" alt="PLTU-Rembang" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/water_quality.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/water_quality.webp" alt="Ramayana" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/water_quality_1.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/water_quality_1.webp" alt="Cicalengka" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/water_quality_3.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/water_quality_3.webp" alt="santika-medan" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/water_quality_4.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/water_quality_4.webp" alt="spbu-pertamina" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/weather_sensor.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/weather_sensor.webp" alt="stadion-palaran" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/weather_sensor_1.webp" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/weather_sensor_1.webp" alt="terminal-3-soeta" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/water_quality_5.png" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/water_quality_5.png" alt="UMN" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4 col-lg-3 element-animate">
+          <a href="images/galeri/gas_monitoring_5.jpg" data-fancybox="gallery" class="thumbnail-container">
+            <img src="images/galeri/gas_monitoring_5.jpg" alt="Walikota" class="img-fluid">
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
-</div>
 </section>
-
     <!-- END section -->
 
     <!-- <section class="section bg-light block-11" id="product-video">
